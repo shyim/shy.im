@@ -1,0 +1,8 @@
+.center-box {
+    display: flex;
+    justify-content: center;
+}
+#search-box {
+    display: flex;
+    justify-content: center;
+}

@@ -1,0 +1,34 @@
+baseURL = "https://shy.shyim.de/"
+languageCode = "de-de"
+title = "Shy.im Shopware FAQ"
+theme = "beautifulhugo"
+
+metaDataFormat = "yaml"
+pygmentsUseClasses = true
+pygmentCodeFences = true
+disqusShortname = "shyim"
+#googleAnalytics = "XXX"
+
+[Params]
+  subtitle = "Your Shopware search"
+  logo = "img/avatar-icon.png"
+  favicon = "img/favicon.ico"
+  dateFormat = "January 2, 2006"
+  commit = false
+  rss = true
+  comments = true
+
+
+[Author]
+  name = "Shyim"
+  github = "shyim"
+
+[[menu.main]]
+    name = "Supporters"
+    url = "/supporters/"
+    weight = 1
+
+[[menu.main]]
+    name = "About me"
+    url = "https://shyim.de"
+    weight = 3
