@@ -34,6 +34,7 @@ foreach (scandir('content/faq') as $item) {
 
 $client = new \AlgoliaSearch\Client('ENSEDQP1OV', getenv('ALGOLIA_KEY'));
 
+$client->deleteIndex('web');
 $index = $client->initIndex('web');
 $index->addObjects($content);
 $index->setSettings(
