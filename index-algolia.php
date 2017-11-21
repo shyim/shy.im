@@ -42,6 +42,9 @@ $index->setSettings(
         'searchableAttributes' => [
             'title',
             'content'
+        ],
+        'facetAttributes' => [
+            'tags'
         ]
     ]
 );
