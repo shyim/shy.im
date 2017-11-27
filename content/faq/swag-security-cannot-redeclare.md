@@ -10,3 +10,6 @@ Dabei treten öfters Probleme auf wie Cannot redeclare class.
 
 - Plugin deaktivieren
 - Plugin deaktivieren und auf die neueste Shopware Version wechseln, wo die Sicherheitslücken geschlossen sind
+
+# Hilfe
+Wenn das Problem bei dir auftritt, bitte bei Söbbing melden im Gitter. Er braucht dringend Leute zum reproduzieren.
