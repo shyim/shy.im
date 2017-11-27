@@ -43,10 +43,8 @@ $index->setSettings(
             'title',
             'content'
         ],
-        'facetAttributes' => [
-            [
-                'name' => 'tags'
-            ]
+        'attributesForFaceting' => [
+		'tags'
         ]
     ]
 );
