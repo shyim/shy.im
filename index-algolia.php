@@ -44,7 +44,9 @@ $index->setSettings(
             'content'
         ],
         'facetAttributes' => [
-            'tags'
+            [
+                'name' => 'tags'
+            ]
         ]
     ]
 );
