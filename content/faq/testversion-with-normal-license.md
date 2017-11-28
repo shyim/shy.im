@@ -3,11 +3,11 @@ title: Testversion wird angezeigt, obwohl eine Kaufversion installiert wurde
 tags: ["Shopware-Account"]
 ---
 
-Dieses Problem tritt auf wenn die Testversion und die Kaufversion im Lizensmanager eingetragen sind.
-Das lässt sich am einfachsten Lösen, wenn man die Testversion aus den Lizensen entfernt.
+Dieses Problem tritt auf wenn die Testversion und die Kaufversion im Lizenz-Manager eingetragen sind.
+Das lässt sich am einfachsten lösen, wenn man die Testversion aus den Lizenzen entfernt.
 
-Die Lizensen findet man unter
+Die Lizenzen findet man unter
 
 - Grundeinstellungen
 - Weitere Einstellungen
-- Lizens-Manager
+- Lizenz-Manager
