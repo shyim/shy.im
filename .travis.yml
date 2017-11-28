@@ -10,4 +10,4 @@ script:
   - composer install
   - php index-algolia.php
   - hugo
-  - cd public && scp -o StrictHostKeyChecking=no -o UserKnownHostsFile=/dev/null -r * shyimci@yoko.shyim.de:/var/www/shyim.me/web/
+  - cd public && sshpass -p $SSH_PW scp -o StrictHostKeyChecking=no -o UserKnownHostsFile=/dev/null -r * shyimci@yoko.shyim.de:/var/www/shyim.me/web/
