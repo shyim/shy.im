@@ -9,3 +9,7 @@
 # Domain
 
 vorläufige Domain: https://shyim.me/ bis shy.im endlich gekauft wurde
+
+# Contribute
+
+Du hattest ein Shopware Problem, was du gerne anderen Menschen weiter sagen möchtest. Erstelle gerne einen Pull Request.
