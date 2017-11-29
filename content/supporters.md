@@ -18,5 +18,6 @@ Spenden:
 - Lars Borchert (6,66€)
 - Lars Lohmann (5€)
 - Sebastian König (5€)
+- Alexander W.H. Wachert (5€)
 
 Moneypool-Link: https://www.paypal.com/pools/c/7ZiGCZH8iU
