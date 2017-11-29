@@ -21,5 +21,5 @@ tags: ["Plugin"]
 ### 5.2.15
 - [cronjob.xml](https://github.com/shopware/shopware/pull/900)
 
-## 5.2.17
+### 5.2.17
 - [config type button](https://github.com/shopware/shopware/pull/939)
