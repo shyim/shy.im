@@ -24,3 +24,5 @@ Statische Seiten:
 ```/backend/Seo/seoStatic/offset/0/limit/250/shopId/1```
 
 ShopId ggf. durch die entsprechende ID des gewünschten Shops ersetzen.
+
+blabla test

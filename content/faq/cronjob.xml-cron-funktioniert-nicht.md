@@ -3,6 +3,8 @@ title: Cronjob.xml angelegte Cronjob funktioniert nicht
 tags: ["Cronjob", "Bugs", "Plugin"]
 ---
 
+blabla test
+
 Die Cronjobs die von der `cronjob.xml` angelegt werden haben kein End Datum, dadurch werden Sie nicht ausgeführt.
 Das Problem wird erst mit Shopware 5.3.5 benutzt. 
 
