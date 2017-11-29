@@ -6,3 +6,7 @@
     display: flex;
     justify-content: center;
 }
+
+.edit-on-github {
+	margin-top: 10px;
+}

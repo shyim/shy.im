@@ -14,7 +14,7 @@ pygmentCodeFences = true
   logo = "img/avatar-icon.png"
   favicon = "img/favicon.ico"
   dateFormat = "January 2, 2006"
-  commit = false
+  commit = true
   rss = true
   comments = true
 
@@ -27,6 +27,12 @@ pygmentCodeFences = true
     name = "Supporters"
     url = "/supporters/"
     weight = 1
+
+[[menu.main]]
+    name = "Neuen Eintrag erstellen"
+    url = "https://github.com/shyim/shy.im/new/master/content/faq"
+    weight = 2
+
 
 [[menu.main]]
     name = "About me"

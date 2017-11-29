@@ -18,6 +18,12 @@
           </li>
         {{ end }}
       </ul>
+
+      {{ if .IsPage }}
+        <div class="edit-on-github">
+          <a class="btn btn-primary" target="_blank" href="https://github.com/shyim/shy.im/edit/master/content/{{ .File.Path }}">Edit on Github</a>
+        </div>
+      {{ end }}
     </div>
   </div>
 </div>
