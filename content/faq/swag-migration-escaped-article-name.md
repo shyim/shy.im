@@ -1,9 +1,9 @@
 ---
-title: 'Artikel Namen nach Shop Migration html escapted &uml;'
+title: 'Artikel Namen nach Shop Migration html escaped &uml;'
 tags: ["SwagMigration"]
 ---
 
-SwagMigration escapt während der Migration alle Produktnamen.
+SwagMigration escaped während der Migration alle Produktnamen.
 
 # Lösung
 ```sql
