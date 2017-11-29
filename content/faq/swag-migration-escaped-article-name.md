@@ -1,5 +1,5 @@
 ---
-title: 'Artikel Namen nach Shop Migration html escapted &uml;'
+title: 'Artikel Namen nach Shop Migration html escaped &uml;'
 tags: ["SwagMigration"]
 ---
 
