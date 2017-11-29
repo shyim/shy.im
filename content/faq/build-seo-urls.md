@@ -5,17 +5,17 @@ tags: ["Cheats"]
 
 Nützliche Direktaufrufe um schneller spezifische SEO URLs generieren zu lassen.
 
-Hersteller
+### Hersteller
 ```/backend/Seo/seoSupplier/offset/0/limit/250/shopId/1```
-Einkaufswelten
+### Einkaufswelten
 ```/backend/Seo/seoEmotion/offset/0/limit/250/shopId/1```
-Artikel
+### Artikel
 ```/backend/Seo/seoArticle/offset/0/limit/250/shopId/1```
-Blog
+### Blog
 ```/backend/Seo/seoBlog/offset/0/limit/250/shopId/1```
-Kategorien
+### Kategorien
 ```/backend/Seo/seoCategory/offset/0/limit/250/shopId/1```
-Statische Seiten
+### Statische Seiten
 ```/backend/Seo/seoStatic/offset/0/limit/250/shopId/1```
 
 ShopId ggf. durch die entsprechende ID des gewünschten Shops ersetzen.
