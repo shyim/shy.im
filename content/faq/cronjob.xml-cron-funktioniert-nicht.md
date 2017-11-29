@@ -4,7 +4,7 @@ tags: ["Cronjob", "Bugs", "Plugin"]
 ---
 
 Die Cronjobs die von der `cronjob.xml` angelegt werden haben kein End Datum, dadurch werden Sie nicht ausgeführt.
-Das Problem wird erst mit Shopware 5.3.5 benutzt. 
+Das Problem wird erst mit Shopware 5.3.5 behoben. 
 
 So lange kann man die Cronjobs selbst anlegen, hier ein Beispiel
 
