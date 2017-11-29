@@ -25,4 +25,3 @@ Statische Seiten:
 
 ShopId ggf. durch die entsprechende ID des gewünschten Shops ersetzen.
 
-blabla test
