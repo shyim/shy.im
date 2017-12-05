@@ -1,5 +1,6 @@
 ---
 title: Einkaufswelten Element eigener Statischer Store
+date: 2017-12-05T19:28:14+01:00
 ---
 
 Einkaufswelten Elemente haben leider keine Option um Store Werte zu übergeben wie in der Plugin Config und müssen dadurch via ExtJs direkt definiert werden.

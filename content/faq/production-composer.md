@@ -1,6 +1,7 @@
 ---
 title: Composer mit den Release Zip benutzen
 tags: ["Composer"]
+date: 2017-12-05T19:28:14+01:00
 ---
 
 Um Composer ordentlich mit den Release Dateien zu benutzen, muss man unbedingt immer alle Operationen mit ``--no-dev`` ausführen.

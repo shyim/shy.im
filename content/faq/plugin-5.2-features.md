@@ -1,6 +1,7 @@
 ---
 title: Shopware 5.2 Plugin System Features nach Version
 tags: ["Plugin"]
+date: 2017-12-05T19:28:14+01:00
 ---
 
 

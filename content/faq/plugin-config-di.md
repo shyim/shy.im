@@ -1,6 +1,7 @@
 ---
 title: Plugin Konfiguration via DI Container holen
 tags: ["Plugin", "Cheats"]
+date: 2017-12-05T19:28:14+01:00
 ---
 
 

@@ -1,6 +1,7 @@
 ---
 title: Event Cheat-Sheet
 tags: ["Plugin"]
+date: 2017-12-05T19:28:14+01:00
 ---
 
 - [Shopware_Modules_Order_SendMail_FilterVariables](https://github.com/shopware/shopware/blob/b3520661f1c182baa9e2f3dbd8c351f25d2284f4/engine/Shopware/Core/sOrder.php#L840)

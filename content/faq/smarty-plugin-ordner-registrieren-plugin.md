@@ -1,6 +1,7 @@
 ---
 title: Smarty Plugin Ordner hinzufügen via Plugin
 tags: ["Plugin"]
+date: 2017-12-05T19:28:14+01:00
 ---
 
 Die einfachste Methode ist ein CompilerPass während des Build Prozesses des Containers.

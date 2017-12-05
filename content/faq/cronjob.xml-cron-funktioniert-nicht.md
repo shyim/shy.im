@@ -1,6 +1,7 @@
 ---
 title: Cronjob.xml angelegte Cronjob funktioniert nicht
 tags: ["Cronjob", "Bugs", "Plugin"]
+date: 2017-12-05T19:28:14+01:00
 ---
 
 Die Cronjobs die von der `cronjob.xml` angelegt werden haben kein End Datum, dadurch werden Sie nicht ausgeführt.

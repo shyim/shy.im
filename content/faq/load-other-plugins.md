@@ -1,6 +1,7 @@
 ---
 title: Andere Plugins laden / Komponenten anderer Plugins benutzen
 tags: ["Plugin"]
+date: 2017-12-05T19:28:14+01:00
 ---
 
 Viele Plugins bringen eigene Komponenten mit und lagern Sie in einen eigenen Namespace aus.

@@ -1,6 +1,7 @@
 ---
 title: Supporter
 subtitle: All diese tollen Menschen haben beigetragen, dass diese Seite entsteht <3
+date: 2017-12-05T19:28:14+01:00
 ---
 
 Spenden:

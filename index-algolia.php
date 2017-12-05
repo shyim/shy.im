@@ -17,7 +17,7 @@ foreach (scandir('content/faq') as $item) {
 
     preg_match_all($reText, $fileContent, $matches, PREG_SET_ORDER, 0);
 
-    $contentText = trim(preg_replace('/(---|title|tags).*/', '', $fileContent));
+    $contentText = trim(preg_replace('/(---|title|tags|date).*/', '', $fileContent));
 
     preg_match_all($reTags, $fileContent, $matchesTags, PREG_SET_ORDER, 0);
     $contentTags = explode(',', str_replace(['"', '[', ']'], [''], $matchesTags[0][1]));
