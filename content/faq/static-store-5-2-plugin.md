@@ -13,7 +13,10 @@ $element = $this->container->get('models')->getRepository(Element::class)->findO
 ]);
 
 $element->setOptions([
-    'store' => $this->getPHPSTORE() // wie im alten pluginsystem die struktur
+    'store' => [
+                    [0, 'Nein'],
+                    [1, 'Ja']
+                ]
 ]);
 
 $this->container->get('models')->persist($element);
