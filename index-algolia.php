@@ -48,3 +48,5 @@ $index->setSettings(
         ]
     ]
 );
+
+echo "Indexing finished\n";
