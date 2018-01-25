@@ -26,7 +26,7 @@ foreach (scandir('content/faq') as $item) {
     $content[] = [
         'title' => str_replace("'", '', $matches[0][1]),
         'slug' => $slug,
-        'content' => substr($parser->parse($contentText), 0, 63000),
+        'content' => substr($parser->parse($contentText), 0, 20000),
         'created' => date('Y-m-d H:i:s', filemtime(__DIR__ . '/content/faq/' . $item)),
         'tags' => $contentTags
     ];
