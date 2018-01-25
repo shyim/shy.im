@@ -4,1682 +4,236 @@ tags: ["Cheats"]
 date: 2018-01-25T19:28:14+01:00
 ---
 
-
-<table class="table table-responsive">
-    <thead>
-        <tr>
-            <th>Label</th>
-            <th>Name</th>
-            <th>Standard Wert</th>
-            <th>Datentyp</th>
-            <th>Wo finde ich das?</th>
-        </tr>
-    </thead>
-    <tbody>
-                    <tr>
-                <td>MwSt. Gutscheine</td>
-                <td>vouchertax</td>
-                <td>19</td>
-                <td>text</td>
-                <td>Artikel -> Sonstige MwSt.-Sätze</td>
-            </tr>
-                    <tr>
-                <td>MwSt. Rabatte</td>
-                <td>discounttax</td>
-                <td>19</td>
-                <td>text</td>
-                <td>Artikel -> Sonstige MwSt.-Sätze</td>
-            </tr>
-                    <tr>
-                <td>Artikel-Bewertungen müssen freigeschaltet werden</td>
-                <td>voteunlock</td>
-                <td>1</td>
-                <td>boolean</td>
-                <td>Storefront -> Artikelbewertungen</td>
-            </tr>
-                    <tr>
-                <td>Automatischer Vorschlag der Artikelnummer</td>
-                <td>backendautoordernumber</td>
-                <td>1</td>
-                <td>boolean</td>
-                <td>Artikel -> Artikelnummern</td>
-            </tr>
-                    <tr>
-                <td>Präfix für automatisch generierte Artikelnummer</td>
-                <td>backendautoordernumberprefix</td>
-                <td>SW</td>
-                <td>text</td>
-                <td>Artikel -> Artikelnummern</td>
-            </tr>
-                    <tr>
-                <td>Artikel-Bewertungen deaktivieren</td>
-                <td>votedisable</td>
-                <td></td>
-                <td>boolean</td>
-                <td>Storefront -> Artikelbewertungen</td>
-            </tr>
-                    <tr>
-                <td>Automatische Erinnerung zur Artikelbewertung senden</td>
-                <td>votesendcalling</td>
-                <td>1</td>
-                <td>boolean</td>
-                <td>Storefront -> Artikelbewertungen</td>
-            </tr>
-                    <tr>
-                <td>Tage bis die Erinnerungs-E-Mail verschickt wird</td>
-                <td>votecallingtime</td>
-                <td>1</td>
-                <td>text</td>
-                <td>Storefront -> Artikelbewertungen</td>
-            </tr>
-                    <tr>
-                <td>Steuer für Rabatte dynamisch feststellen</td>
-                <td>taxautomode</td>
-                <td>1</td>
-                <td>boolean</td>
-                <td>Artikel -> Sonstige MwSt.-Sätze</td>
-            </tr>
-                    <tr>
-                <td>Artikelverlauf anzeigen</td>
-                <td>lastarticles_show</td>
-                <td>1</td>
-                <td>checkbox</td>
-                <td>Storefront -> Artikelverlauf</td>
-            </tr>
-                    <tr>
-                <td>Controller-Auswahl</td>
-                <td>lastarticles_controller</td>
-                <td>index, listing, detail, custom, newsletter, sitemap, campaign</td>
-                <td>text</td>
-                <td>Storefront -> Artikelverlauf</td>
-            </tr>
-                    <tr>
-                <td>Anzahl Artikel in Verlauf (zuletzt angeschaut)</td>
-                <td>lastarticlestoshow</td>
-                <td>5</td>
-                <td>text</td>
-                <td>Storefront -> Artikelverlauf</td>
-            </tr>
-                    <tr>
-                <td>Methode zum Senden der Mail</td>
-                <td>mailer_mailer</td>
-                <td>mail</td>
-                <td>text</td>
-                <td>Shopeinstellungen -> Mailer</td>
-            </tr>
-                    <tr>
-                <td>Hostname für die Message-ID</td>
-                <td>mailer_hostname</td>
-                <td></td>
-                <td>text</td>
-                <td>Shopeinstellungen -> Mailer</td>
-            </tr>
-                    <tr>
-                <td>Mail Host</td>
-                <td>mailer_host</td>
-                <td>localhost</td>
-                <td>text</td>
-                <td>Shopeinstellungen -> Mailer</td>
-            </tr>
-                    <tr>
-                <td>Standard Port</td>
-                <td>mailer_port</td>
-                <td>25</td>
-                <td>text</td>
-                <td>Shopeinstellungen -> Mailer</td>
-            </tr>
-                    <tr>
-                <td>Verbindungs Präfix</td>
-                <td>mailer_smtpsecure</td>
-                <td></td>
-                <td>text</td>
-                <td>Shopeinstellungen -> Mailer</td>
-            </tr>
-                    <tr>
-                <td>SMTP Benutzername</td>
-                <td>mailer_username</td>
-                <td></td>
-                <td>text</td>
-                <td>Shopeinstellungen -> Mailer</td>
-            </tr>
-                    <tr>
-                <td>SMTP Passwort</td>
-                <td>mailer_password</td>
-                <td></td>
-                <td>text</td>
-                <td>Shopeinstellungen -> Mailer</td>
-            </tr>
-                    <tr>
-                <td>Verbindungs-Authentifizierung</td>
-                <td>mailer_auth</td>
-                <td></td>
-                <td>text</td>
-                <td>Shopeinstellungen -> Mailer</td>
-            </tr>
-                    <tr>
-                <td>Shop wegen Wartung sperren</td>
-                <td>setoffline</td>
-                <td></td>
-                <td>boolean</td>
-                <td>System -> Wartung</td>
-            </tr>
-                    <tr>
-                <td>Von der Sperrung ausgeschlossene IP</td>
-                <td>offlineip</td>
-                <td>0</td>
-                <td>text</td>
-                <td>System -> Wartung</td>
-            </tr>
-                    <tr>
-                <td>Menü zeigen</td>
-                <td>show</td>
-                <td>1</td>
-                <td>checkbox</td>
-                <td>Storefront -> Erweitertes Menü</td>
-            </tr>
-                    <tr>
-                <td>Anzahl Ebenen</td>
-                <td>levels</td>
-                <td>2</td>
-                <td>text</td>
-                <td>Storefront -> Erweitertes Menü</td>
-            </tr>
-                    <tr>
-                <td>Caching aktivieren</td>
-                <td>caching</td>
-                <td>1</td>
-                <td>checkbox</td>
-                <td>Storefront -> Erweitertes Menü</td>
-            </tr>
-                    <tr>
-                <td>Cachezeit</td>
-                <td>cachetime</td>
-                <td>86400</td>
-                <td>interval</td>
-                <td>Storefront -> Erweitertes Menü</td>
-            </tr>
-                    <tr>
-                <td>Vergleich zeigen</td>
-                <td>compareShow</td>
-                <td>1</td>
-                <td>checkbox</td>
-                <td>Storefront -> Artikelvergleich</td>
-            </tr>
-                    <tr>
-                <td>Maximale Anzahl von zu vergleichenden Artikeln</td>
-                <td>maxComparisons</td>
-                <td>5</td>
-                <td>number</td>
-                <td>Storefront -> Artikelvergleich</td>
-            </tr>
-                    <tr>
-                <td>Artikel pro Seite</td>
-                <td>articlesperpage</td>
-                <td>12</td>
-                <td>text</td>
-                <td>Storefront -> Kategorien / Listen</td>
-            </tr>
-                    <tr>
-                <td>Artikel als neu markieren (Tage)</td>
-                <td>markasnew</td>
-                <td>30</td>
-                <td>text</td>
-                <td>Storefront -> Topseller / Neuheiten</td>
-            </tr>
-                    <tr>
-                <td>Artikel als Topseller markieren (Verkäufe)</td>
-                <td>markastopseller</td>
-                <td>30</td>
-                <td>text</td>
-                <td>Storefront -> Topseller / Neuheiten</td>
-            </tr>
-                    <tr>
-                <td>Anzahl Topseller für Charts</td>
-                <td>chartrange</td>
-                <td>8</td>
-                <td>number</td>
-                <td>Storefront -> Topseller / Neuheiten</td>
-            </tr>
-                    <tr>
-                <td>Auswahl Artikel pro Seite</td>
-                <td>numberarticlestoshow</td>
-                <td>12|24|36|48</td>
-                <td>text</td>
-                <td>Storefront -> Kategorien / Listen</td>
-            </tr>
-                    <tr>
-                <td>Verfügbare Listen Layouts</td>
-                <td>categorytemplates</td>
-                <td></td>
-                <td>textarea</td>
-                <td>Storefront -> Kategorien / Listen</td>
-            </tr>
-                    <tr>
-                <td>Max. wählbare Artikelmenge / Artikel über Pulldown-Menü</td>
-                <td>maxpurchase</td>
-                <td>100</td>
-                <td>text</td>
-                <td>Storefront -> Warenkorb / Artikeldetails</td>
-            </tr>
-                    <tr>
-                <td>Text für nicht verfügbare Artikel</td>
-                <td>notavailable</td>
-                <td>Lieferzeit ca. 5 Tage</td>
-                <td>text</td>
-                <td>Storefront -> Warenkorb / Artikeldetails</td>
-            </tr>
-                    <tr>
-                <td>Anzahl ähnlicher Artikel Cross-Selling</td>
-                <td>maxcrosssimilar</td>
-                <td>8</td>
-                <td>text</td>
-                <td>Storefront -> Cross-Selling / Ähnliche Art.</td>
-            </tr>
-                    <tr>
-                <td>Anzahl "Kunden kauften auch" Artikel Cross-Selling</td>
-                <td>maxcrossalsobought</td>
-                <td>8</td>
-                <td>text</td>
-                <td>Storefront -> Cross-Selling / Ähnliche Art.</td>
-            </tr>
-                    <tr>
-                <td>Anzahl der Tage, die für die Topseller-Generierung berücksichtigt werden</td>
-                <td>chartinterval</td>
-                <td>10</td>
-                <td>text</td>
-                <td>Storefront -> Topseller / Neuheiten</td>
-            </tr>
-                    <tr>
-                <td>Anzahl automatisch ermittelter, ähnlicher Artikel (Detailseite)</td>
-                <td>similarlimit</td>
-                <td>0</td>
-                <td>text</td>
-                <td>Storefront -> Cross-Selling / Ähnliche Art.</td>
-            </tr>
-                    <tr>
-                <td>Lieferzeit im Warenkorb anzeigen</td>
-                <td>basketshippinginfo</td>
-                <td>1</td>
-                <td>boolean</td>
-                <td>Storefront -> Warenkorb / Artikeldetails</td>
-            </tr>
-                    <tr>
-                <td>Anfrage-Formular ID</td>
-                <td>inquiryid</td>
-                <td>16</td>
-                <td>text</td>
-                <td>Storefront -> Warenkorb / Artikeldetails</td>
-            </tr>
-                    <tr>
-                <td>Mind. Warenkorbwert ab dem die Möglichkeit der individuellen Anfrage angeboten wird</td>
-                <td>inquiryvalue</td>
-                <td>150</td>
-                <td>text</td>
-                <td>Storefront -> Warenkorb / Artikeldetails</td>
-            </tr>
-                    <tr>
-                <td>Zoomviewer statt Lightbox auf Detailseite</td>
-                <td>usezoomplus</td>
-                <td>1</td>
-                <td>boolean</td>
-                <td>Storefront -> Warenkorb / Artikeldetails</td>
-            </tr>
-                    <tr>
-                <td>Warenkorb bei E-Mail-Benachrichtigung ausblenden</td>
-                <td>deactivatebasketonnotification</td>
-                <td>1</td>
-                <td>boolean</td>
-                <td>Storefront -> Warenkorb / Artikeldetails</td>
-            </tr>
-                    <tr>
-                <td>Lagerbestands-Unterschreitung im Warenkorb anzeigen</td>
-                <td>instockinfo</td>
-                <td></td>
-                <td>boolean</td>
-                <td>Storefront -> Warenkorb / Artikeldetails</td>
-            </tr>
-                    <tr>
-                <td>Direkt auf Detailspringen, falls nur ein Artikel vorhanden ist</td>
-                <td>categorydetaillink</td>
-                <td></td>
-                <td>boolean</td>
-                <td>Storefront -> Kategorien / Listen</td>
-            </tr>
-                    <tr>
-                <td>Verfügbare Templates Detailseite</td>
-                <td>detailtemplates</td>
-                <td>:Standard</td>
-                <td>textarea</td>
-                <td>Storefront -> Warenkorb / Artikeldetails</td>
-            </tr>
-                    <tr>
-                <td>Mindestlänge Passwort (Registrierung)</td>
-                <td>minpassword</td>
-                <td>8</td>
-                <td>text</td>
-                <td>Storefront -> Anmeldung / Registrierung</td>
-            </tr>
-                    <tr>
-                <td>Standardzahlungsart (Id) (Registrierung)</td>
-                <td>defaultpayment</td>
-                <td>5</td>
-                <td>select</td>
-                <td>Storefront -> Anmeldung / Registrierung</td>
-            </tr>
-                    <tr>
-                <td>Standard-Empfangsgruppe (ID) für registrierte Kunden (System / Newsletter)</td>
-                <td>newsletterdefaultgroup</td>
-                <td>1</td>
-                <td>text</td>
-                <td>Storefront -> Anmeldung / Registrierung</td>
-            </tr>
-                    <tr>
-                <td>Shopware generiert Kundennummern</td>
-                <td>shopwaremanagedcustomernumbers</td>
-                <td>1</td>
-                <td>boolean</td>
-                <td>Storefront -> Anmeldung / Registrierung</td>
-            </tr>
-                    <tr>
-                <td>AGB - Checkbox auf Kassenseite deaktivieren</td>
-                <td>ignoreagb</td>
-                <td></td>
-                <td>boolean</td>
-                <td>Storefront -> Anmeldung / Registrierung</td>
-            </tr>
-                    <tr>
-                <td>Datenschutz-Bedingungen müssen über Checkbox akzeptiert werden</td>
-                <td>actdprcheck</td>
-                <td></td>
-                <td>boolean</td>
-                <td>Storefront -> Anmeldung / Registrierung</td>
-            </tr>
-                    <tr>
-                <td>Fallback-Zahlungsart (ID)</td>
-                <td>paymentdefault</td>
-                <td>5</td>
-                <td>text</td>
-                <td>Storefront -> Anmeldung / Registrierung</td>
-            </tr>
-                    <tr>
-                <td>E-Mail Addresse muss zweimal eingegeben werden.</td>
-                <td>doubleemailvalidation</td>
-                <td></td>
-                <td>boolean</td>
-                <td>Storefront -> Anmeldung / Registrierung</td>
-            </tr>
-                    <tr>
-                <td>Erweiterte Felder in Newsletter-Registrierung abfragen</td>
-                <td>newsletterextendedfields</td>
-                <td>1</td>
-                <td>boolean</td>
-                <td>Storefront -> Anmeldung / Registrierung</td>
-            </tr>
-                    <tr>
-                <td>"Kein Kundenkonto" deaktivieren</td>
-                <td>noaccountdisable</td>
-                <td></td>
-                <td>boolean</td>
-                <td>Storefront -> Anmeldung / Registrierung</td>
-            </tr>
-                    <tr>
-                <td>IP von Statistiken ausschließen</td>
-                <td>blockIp</td>
-                <td></td>
-                <td>text</td>
-                <td>System -> Statistiken</td>
-            </tr>
-                    <tr>
-                <td>SQL-Injection-Schutz aktivieren</td>
-                <td>sql_protection</td>
-                <td>1</td>
-                <td>checkbox</td>
-                <td>System -> InputFilter</td>
-            </tr>
-                    <tr>
-                <td>XSS-Schutz aktivieren</td>
-                <td>xss_protection</td>
-                <td>1</td>
-                <td>checkbox</td>
-                <td>System -> InputFilter</td>
-            </tr>
-                    <tr>
-                <td>RemoteFileInclusion-Schutz aktivieren</td>
-                <td>rfi_protection</td>
-                <td>1</td>
-                <td>checkbox</td>
-                <td>System -> InputFilter</td>
-            </tr>
-                    <tr>
-                <td>Minimale Suchwortlänge</td>
-                <td>minsearchlenght</td>
-                <td>3</td>
-                <td>text</td>
-                <td>Storefront -> Suche</td>
-            </tr>
-                    <tr>
-                <td>Bestellbestätigung an Shopbetreiber deaktivieren</td>
-                <td>no_order_mail</td>
-                <td></td>
-                <td>boolean</td>
-                <td>Storefront -> E-Mail-Einstellungen</td>
-            </tr>
-                    <tr>
-                <td>Rabatte Bestellnummer</td>
-                <td>discountnumber</td>
-                <td>sw-discount</td>
-                <td>text</td>
-                <td>Storefront -> Rabatte / Zuschläge</td>
-            </tr>
-                    <tr>
-                <td>Mindermengen Bestellnummer</td>
-                <td>surchargenumber</td>
-                <td>sw-surcharge</td>
-                <td>text</td>
-                <td>Storefront -> Rabatte / Zuschläge</td>
-            </tr>
-                    <tr>
-                <td>Zuschlag für Zahlungsart (Bestellnummer)</td>
-                <td>paymentsurchargenumber</td>
-                <td>sw-payment</td>
-                <td>text</td>
-                <td>Storefront -> Rabatte / Zuschläge</td>
-            </tr>
-                    <tr>
-                <td>Anzahl der Ergebnisse in der Livesuche</td>
-                <td>maxlivesearchresults</td>
-                <td>6</td>
-                <td>text</td>
-                <td>Storefront -> Suche</td>
-            </tr>
-                    <tr>
-                <td>Registrierungsbestätigung in CC an Shopbetreiber schicken</td>
-                <td>send_confirm_mail</td>
-                <td>1</td>
-                <td>boolean</td>
-                <td>Storefront -> E-Mail-Einstellungen</td>
-            </tr>
-                    <tr>
-                <td>Double-Opt-In für Newsletter-Anmeldungen</td>
-                <td>optinnewsletter</td>
-                <td></td>
-                <td>boolean</td>
-                <td>Storefront -> E-Mail-Einstellungen</td>
-            </tr>
-                    <tr>
-                <td>Double-Opt-In für Artikel-Bewertungen</td>
-                <td>optinvote</td>
-                <td>1</td>
-                <td>boolean</td>
-                <td>Storefront -> E-Mail-Einstellungen</td>
-            </tr>
-                    <tr>
-                <td>Abschlag-Versandregel (Bestellnummer)</td>
-                <td>shippingdiscountnumber</td>
-                <td>SHIPPINGDISCOUNT</td>
-                <td>text</td>
-                <td>Storefront -> Rabatte / Zuschläge</td>
-            </tr>
-                    <tr>
-                <td>Bestellstatus - Änderungen CC-Adresse</td>
-                <td>orderstatemailack</td>
-                <td></td>
-                <td>text</td>
-                <td>Storefront -> E-Mail-Einstellungen</td>
-            </tr>
-                    <tr>
-                <td>Erweitere SQL-Abfrage</td>
-                <td>premiumshippiungasketselect</td>
-                <td>MAX(a.topseller) as has_topseller, MAX(at.attr3) as has_comment, MAX(b.esdarticle) as has_esd</td>
-                <td>text</td>
-                <td>Storefront -> Versandkosten-Modul</td>
-            </tr>
-                    <tr>
-                <td>Bestellung bei keiner verfügbaren Versandart blocken</td>
-                <td>premiumshippingnoorder</td>
-                <td></td>
-                <td>boolean</td>
-                <td>Storefront -> Versandkosten-Modul</td>
-            </tr>
-                    <tr>
-                <td>Nur Kleinbuchstaben in den Urls nutzen</td>
-                <td>routertolower</td>
-                <td>1</td>
-                <td>boolean</td>
-                <td>Storefront -> SEO/Router-Einstellungen</td>
-            </tr>
-                    <tr>
-                <td>Meta-Description von Artikel/Kategorien aufbereiten</td>
-                <td>seometadescription</td>
-                <td>1</td>
-                <td>boolean</td>
-                <td>Storefront -> SEO/Router-Einstellungen</td>
-            </tr>
-                    <tr>
-                <td>KategorieID aus Url entfernen</td>
-                <td>routerremovecategory</td>
-                <td></td>
-                <td>boolean</td>
-                <td>Storefront -> SEO/Router-Einstellungen</td>
-            </tr>
-                    <tr>
-                <td>SEO-Noindex Querys</td>
-                <td>seoqueryblacklist</td>
-                <td>sPage,sPerPage,sSupplier,sFilterProperties,p,n,s,f</td>
-                <td>text</td>
-                <td>Storefront -> SEO/Router-Einstellungen</td>
-            </tr>
-                    <tr>
-                <td>SEO-Noindex Viewports</td>
-                <td>seoviewportblacklist</td>
-                <td>login,ticket,tellafriend,note,support,basket,admin,registerFC,newsletter,search,search,account,checkout,register</td>
-                <td>text</td>
-                <td>Storefront -> SEO/Router-Einstellungen</td>
-            </tr>
-                    <tr>
-                <td>Html-Kommentare entfernen</td>
-                <td>seoremovecomments</td>
-                <td>1</td>
-                <td>boolean</td>
-                <td>Storefront -> SEO/Router-Einstellungen</td>
-            </tr>
-                    <tr>
-                <td>Query-Aliase</td>
-                <td>seoqueryalias</td>
-                <td>sSearch=q,
-sPage=p,
-sPerPage=n,
-sSupplier=s,
-sFilterProperties=f,
-sCategory=c,
-sCoreId=u,
-sTarget=t,
-sValidation=v,
-sTemplate=l,
-priceMin=min,
-priceMax=max,
-shippingFree=free,
-immediateDelivery=delivery,
-sSort=o,
-categoryFilter=cf,
-variants=var</td>
-                <td>textarea</td>
-                <td>Storefront -> SEO/Router-Einstellungen</td>
-            </tr>
-                    <tr>
-                <td>SEO-Follow Backlinks</td>
-                <td>seobacklinkwhitelist</td>
-                <td>www.shopware.de,
-www.shopware.ag,
-www.shopware-ag.de</td>
-                <td>textarea</td>
-                <td>Storefront -> SEO/Router-Einstellungen</td>
-            </tr>
-                    <tr>
-                <td>Datum des letzten Updates</td>
-                <td>routerlastupdate</td>
-                <td></td>
-                <td>datetime</td>
-                <td>Storefront -> SEO/Router-Einstellungen</td>
-            </tr>
-                    <tr>
-                <td>SEO-Urls Cachezeit Tabelle</td>
-                <td>routercache</td>
-                <td>86400</td>
-                <td>text</td>
-                <td>Storefront -> SEO/Router-Einstellungen</td>
-            </tr>
-                    <tr>
-                <td>USt-IdNr. für Firmenkunden als Pflichtfeld markieren</td>
-                <td>vatcheckrequired</td>
-                <td></td>
-                <td>boolean</td>
-                <td>Storefront -> Anmeldung / Registrierung</td>
-            </tr>
-                    <tr>
-                <td>SEO-Urls Artikel-Template</td>
-                <td>routerarticletemplate</td>
-                <td>{sCategoryPath articleID=$sArticle.id}/{$sArticle.id}/{$sArticle.name}</td>
-                <td>text</td>
-                <td>Storefront -> SEO/Router-Einstellungen</td>
-            </tr>
-                    <tr>
-                <td>SEO-Urls Kategorie-Template</td>
-                <td>routercategorytemplate</td>
-                <td>{sCategoryPath categoryID=$sCategory.id}/</td>
-                <td>text</td>
-                <td>Storefront -> SEO/Router-Einstellungen</td>
-            </tr>
-                    <tr>
-                <td>sonstige SEO-Urls</td>
-                <td>seostaticurls</td>
-                <td></td>
-                <td>textarea</td>
-                <td>Storefront -> SEO/Router-Einstellungen</td>
-            </tr>
-                    <tr>
-                <td>Name des Shops</td>
-                <td>shopName</td>
-                <td>Shopware Demo</td>
-                <td>text</td>
-                <td>Shopeinstellungen -> Stammdaten</td>
-            </tr>
-                    <tr>
-                <td>Shopbetreiber E-Mail</td>
-                <td>mail</td>
-                <td>info@example.com</td>
-                <td>text</td>
-                <td>Shopeinstellungen -> Stammdaten</td>
-            </tr>
-                    <tr>
-                <td>Adresse</td>
-                <td>address</td>
-                <td></td>
-                <td>textarea</td>
-                <td>Shopeinstellungen -> Stammdaten</td>
-            </tr>
-                    <tr>
-                <td>Bankverbindung</td>
-                <td>bankAccount</td>
-                <td></td>
-                <td>textarea</td>
-                <td>Shopeinstellungen -> Stammdaten</td>
-            </tr>
-                    <tr>
-                <td>Schriftfarbe Captcha (R,G,B)</td>
-                <td>captchaColor</td>
-                <td>51,51,51</td>
-                <td>text</td>
-                <td>Storefront -> Captcha</td>
-            </tr>
-                    <tr>
-                <td>Base-File</td>
-                <td>baseFile</td>
-                <td>shopware.php</td>
-                <td>text</td>
-                <td>System</td>
-            </tr>
-                    <tr>
-                <td>ESD-Key</td>
-                <td>esdKey</td>
-                <td>552211cce724117c3178e3d22bec532ec</td>
-                <td>text</td>
-                <td>Artikel -> ESD</td>
-            </tr>
-                    <tr>
-                <td>Verfügbare Templates Blog-Detailseite</td>
-                <td>blogdetailtemplates</td>
-                <td>:Standard;</td>
-                <td>textarea</td>
-                <td>Storefront -> Warenkorb / Artikeldetails</td>
-            </tr>
-                    <tr>
-                <td>Faktor für genaue Treffer</td>
-                <td>fuzzysearchexactmatchfactor</td>
-                <td>100</td>
-                <td>number</td>
-                <td>Storefront -> Suche</td>
-            </tr>
-                    <tr>
-                <td>Datum des letzten Updates</td>
-                <td>fuzzysearchlastupdate</td>
-                <td>2010-01-01 00:00:00</td>
-                <td>datetime</td>
-                <td>Storefront -> Suche</td>
-            </tr>
-                    <tr>
-                <td>Faktor für unscharfe Treffer</td>
-                <td>fuzzysearchmatchfactor</td>
-                <td>5</td>
-                <td>number</td>
-                <td>Storefront -> Suche</td>
-            </tr>
-                    <tr>
-                <td>Minimale Relevanz zum Topartikel in Prozent</td>
-                <td>fuzzysearchmindistancentop</td>
-                <td>20</td>
-                <td>number</td>
-                <td>Storefront -> Suche</td>
-            </tr>
-                    <tr>
-                <td>Maximal-Distanz für Teilnamen in Prozent</td>
-                <td>fuzzysearchpartnamedistancen</td>
-                <td>25</td>
-                <td>number</td>
-                <td>Storefront -> Suche</td>
-            </tr>
-                    <tr>
-                <td>Faktor für Teiltreffer</td>
-                <td>fuzzysearchpatternmatchfactor</td>
-                <td>50</td>
-                <td>number</td>
-                <td>Storefront -> Suche</td>
-            </tr>
-                    <tr>
-                <td>Auswahl Ergebnisse pro Seite</td>
-                <td>fuzzysearchselectperpage</td>
-                <td>12|24|36|48</td>
-                <td>text</td>
-                <td>Storefront -> Suche</td>
-            </tr>
-                    <tr>
-                <td>ESD-Min-Serials</td>
-                <td>esdMinSerials</td>
-                <td>5</td>
-                <td>text</td>
-                <td>Artikel -> ESD</td>
-            </tr>
-                    <tr>
-                <td>Anzeigen der Kunden-kauften-auch-Empfehlung</td>
-                <td>alsoBoughtShow</td>
-                <td>1</td>
-                <td>checkbox</td>
-                <td>Storefront -> Artikelempfehlungen</td>
-            </tr>
-                    <tr>
-                <td>Anzahl an Artikel pro Seite in der Liste</td>
-                <td>alsoBoughtPerPage</td>
-                <td>4</td>
-                <td>number</td>
-                <td>Storefront -> Artikelempfehlungen</td>
-            </tr>
-                    <tr>
-                <td>Maximale Anzahl von Seiten in der Liste</td>
-                <td>alsoBoughtMaxPages</td>
-                <td>10</td>
-                <td>number</td>
-                <td>Storefront -> Artikelempfehlungen</td>
-            </tr>
-                    <tr>
-                <td>Anzeigen der Kunden-schauten-sich-auch-an-Empfehlung</td>
-                <td>similarViewedShow</td>
-                <td>1</td>
-                <td>checkbox</td>
-                <td>Storefront -> Artikelempfehlungen</td>
-            </tr>
-                    <tr>
-                <td>Anzahl an Artikel pro Seite in der Liste</td>
-                <td>similarViewedPerPage</td>
-                <td>4</td>
-                <td>number</td>
-                <td>Storefront -> Artikelempfehlungen</td>
-            </tr>
-                    <tr>
-                <td>Maximale Anzahl von Seiten in der Liste</td>
-                <td>similarViewedMaxPages</td>
-                <td>10</td>
-                <td>number</td>
-                <td>Storefront -> Artikelempfehlungen</td>
-            </tr>
-                    <tr>
-                <td>Zeige Widerrufsbelehrung an</td>
-                <td>revocationNotice</td>
-                <td>1</td>
-                <td>boolean</td>
-                <td>Storefront -> Bestellabschluss</td>
-            </tr>
-                    <tr>
-                <td>Zeige Newsletter-Registrierung an</td>
-                <td>newsletter</td>
-                <td></td>
-                <td>boolean</td>
-                <td>Storefront -> Bestellabschluss</td>
-            </tr>
-                    <tr>
-                <td>Zeige Bankverbindungshinweis an</td>
-                <td>bankConnection</td>
-                <td></td>
-                <td>boolean</td>
-                <td>Storefront -> Bestellabschluss</td>
-            </tr>
-                    <tr>
-                <td>Zeige weiteren Hinweis an</td>
-                <td>additionalFreeText</td>
-                <td></td>
-                <td>boolean</td>
-                <td>Storefront -> Bestellabschluss</td>
-            </tr>
-                    <tr>
-                <td>Zeige weitere Optionen an</td>
-                <td>commentVoucherArticle</td>
-                <td></td>
-                <td>boolean</td>
-                <td>Storefront -> Bestellabschluss</td>
-            </tr>
-                    <tr>
-                <td>Zeige Prämienartikel an</td>
-                <td>premiumArticles</td>
-                <td></td>
-                <td>boolean</td>
-                <td>Storefront -> Bestellabschluss</td>
-            </tr>
-                    <tr>
-                <td>Zeige Länder-Beschreibung an</td>
-                <td>countryNotice</td>
-                <td>1</td>
-                <td>boolean</td>
-                <td>Storefront -> Bestellabschluss</td>
-            </tr>
-                    <tr>
-                <td>Zeige Hinweis für Netto-Bestellungen an</td>
-                <td>nettoNotice</td>
-                <td></td>
-                <td>boolean</td>
-                <td>Storefront -> Bestellabschluss</td>
-            </tr>
-                    <tr>
-                <td>Template für die wesentliche Merkmale</td>
-                <td>mainFeatures</td>
-                <td>{if $sBasketItem.additional_details.properties}
-    {$sBasketItem.additional_details.properties}
-{elseif $sBasketItem.additional_details.description}
-    {$sBasketItem.additional_details.description}
-{else}
-    {$sBasketItem.additional_details.description_long|strip_tags|truncate:50}
-{/if}</td>
-                <td>textarea</td>
-                <td>Storefront -> Bestellabschluss</td>
-            </tr>
-                    <tr>
-                <td>PHP Timeout</td>
-                <td>backendTimeout</td>
-                <td>7200</td>
-                <td>interval</td>
-                <td>System -> Backend</td>
-            </tr>
-                    <tr>
-                <td>Auswählbare Sprachen</td>
-                <td>backendLocales</td>
-                <td>Array</td>
-                <td>select</td>
-                <td>System -> Backend</td>
-            </tr>
-                    <tr>
-                <td>SEO-Urls Blog-Template</td>
-                <td>routerblogtemplate</td>
-                <td>{sCategoryPath categoryID=$blogArticle.categoryId}/{$blogArticle.title}</td>
-                <td>text</td>
-                <td>Storefront -> SEO/Router-Einstellungen</td>
-            </tr>
-                    <tr>
-                <td>Artikeldetails in Modalbox anzeigen</td>
-                <td>detailModal</td>
-                <td>1</td>
-                <td>boolean</td>
-                <td>Storefront -> Bestellabschluss</td>
-            </tr>
-                    <tr>
-                <td>Firma</td>
-                <td>company</td>
-                <td></td>
-                <td>textfield</td>
-                <td>Shopeinstellungen -> Stammdaten</td>
-            </tr>
-                    <tr>
-                <td>SEO-Urls Landingpage-Template</td>
-                <td>routercampaigntemplate</td>
-                <td>{$campaign.name}</td>
-                <td>text</td>
-                <td>Storefront -> SEO/Router-Einstellungen</td>
-            </tr>
-                    <tr>
-                <td>Pauschaler Aufschlag für Zahlungsart (Bestellnummer)</td>
-                <td>paymentSurchargeAbsoluteNumber</td>
-                <td>sw-payment-absolute</td>
-                <td>text</td>
-                <td>Storefront -> Rabatte / Zuschläge</td>
-            </tr>
-                    <tr>
-                <td>Anzahl der Mails, die pro Cronjob-Aufruf versendet werden</td>
-                <td>MailCampaignsPerCall</td>
-                <td>1000</td>
-                <td>number</td>
-                <td>Weitere Einstellungen -> Newsletter</td>
-            </tr>
-                    <tr>
-                <td>Eigener Filter</td>
-                <td>own_filter</td>
-                <td></td>
-                <td>textarea</td>
-                <td>System -> InputFilter</td>
-            </tr>
-                    <tr>
-                <td>Aktuelles Passwort bei Passwort-Änderungen abfragen</td>
-                <td>accountPasswordCheck</td>
-                <td>1</td>
-                <td>boolean</td>
-                <td>Storefront -> Anmeldung / Registrierung</td>
-            </tr>
-                    <tr>
-                <td>Shopware-Kernel aus URL entfernen </td>
-                <td>preferBasePath</td>
-                <td>1</td>
-                <td>boolean</td>
-                <td>Storefront -> SEO/Router-Einstellungen</td>
-            </tr>
-                    <tr>
-                <td>In Listen-Ansichten immer die Artikel-Kurzbeschreibung anzeigen</td>
-                <td>useShortDescriptionInListing</td>
-                <td></td>
-                <td>checkbox</td>
-                <td>Weitere Einstellungen -> Abwärtskompatibilität</td>
-            </tr>
-                    <tr>
-                <td>Passwort-Algorithmus</td>
-                <td>defaultPasswordEncoder</td>
-                <td>Auto</td>
-                <td>combo</td>
-                <td>System -> Passwörter</td>
-            </tr>
-                    <tr>
-                <td>Live Migration</td>
-                <td>liveMigration</td>
-                <td>1</td>
-                <td>checkbox</td>
-                <td>System -> Passwörter</td>
-            </tr>
-                    <tr>
-                <td>Bcrypt-Rechenaufwand</td>
-                <td>bcryptCost</td>
-                <td>10</td>
-                <td>number</td>
-                <td>System -> Passwörter</td>
-            </tr>
-                    <tr>
-                <td>Sha256-Iterationen</td>
-                <td>sha256iterations</td>
-                <td>100000</td>
-                <td>number</td>
-                <td>System -> Passwörter</td>
-            </tr>
-                    <tr>
-                <td>Kategorien im Batch-Modus verschieben</td>
-                <td>moveBatchModeEnabled</td>
-                <td></td>
-                <td>checkbox</td>
-                <td>Storefront -> Kategorien / Listen</td>
-            </tr>
-                    <tr>
-                <td>Admin-View</td>
-                <td>admin</td>
-                <td></td>
-                <td>boolean</td>
-                <td>System -> Frontend cache (HTTP cache)</td>
-            </tr>
-                    <tr>
-                <td>Cache-Controller / Zeiten</td>
-                <td>cacheControllers</td>
-                <td>frontend/listing 3600
-frontend/index 3600
-frontend/detail 3600
-frontend/campaign 14400
-widgets/listing 14400
-frontend/custom 14400
-frontend/sitemap 14400
-frontend/blog 14400
-widgets/index 3600
-widgets/checkout 3600
-widgets/compare 3600
-widgets/emotion 14400
-widgets/recommendation 14400
-widgets/lastArticles 3600
-widgets/campaign 3600
-frontend/listing/layout 0</td>
-                <td>textarea</td>
-                <td>System -> Frontend cache (HTTP cache)</td>
-            </tr>
-                    <tr>
-                <td>NoCache-Controller / Tags</td>
-                <td>noCacheControllers</td>
-                <td>widgets/lastArticles detail
-widgets/checkout checkout,slt
-widgets/compare compare</td>
-                <td>textarea</td>
-                <td>System -> Frontend cache (HTTP cache)</td>
-            </tr>
-                    <tr>
-                <td>Alternative Proxy-Url</td>
-                <td>proxy</td>
-                <td></td>
-                <td>text</td>
-                <td>System -> Frontend cache (HTTP cache)</td>
-            </tr>
-                    <tr>
-                <td>Proxy-Prune aktivieren</td>
-                <td>proxyPrune</td>
-                <td>1</td>
-                <td>boolean</td>
-                <td>System -> Frontend cache (HTTP cache)</td>
-            </tr>
-                    <tr>
-                <td>Download freigeben bei Zahlstatus</td>
-                <td>downloadAvailablePaymentStatus</td>
-                <td>Array</td>
-                <td>select</td>
-                <td>Artikel -> ESD</td>
-            </tr>
-                    <tr>
-                <td>Immer das Artikel-Vorschaubild anzeigen</td>
-                <td>forceArticleMainImageInListing</td>
-                <td></td>
-                <td>checkbox</td>
-                <td>Storefront -> Kategorien / Listen</td>
-            </tr>
-                    <tr>
-                <td>Bestell-Abschluss-E-Mail versenden</td>
-                <td>sendOrderMail</td>
-                <td>1</td>
-                <td>checkbox</td>
-                <td>Storefront -> Bestellabschluss</td>
-            </tr>
-                    <tr>
-                <td>Telefon als Pflichtfeld behandeln</td>
-                <td>requirePhoneField</td>
-                <td></td>
-                <td>checkbox</td>
-                <td>Storefront -> Anmeldung / Registrierung</td>
-            </tr>
-                    <tr>
-                <td>Firmenname</td>
-                <td>sepaCompany</td>
-                <td></td>
-                <td>text</td>
-                <td>Storefront -> SEPA-Konfiguration</td>
-            </tr>
-                    <tr>
-                <td>Überschrift</td>
-                <td>sepaHeaderText</td>
-                <td></td>
-                <td>text</td>
-                <td>Storefront -> SEPA-Konfiguration</td>
-            </tr>
-                    <tr>
-                <td>Gläubiger-Identifikationsnummer</td>
-                <td>sepaSellerId</td>
-                <td></td>
-                <td>text</td>
-                <td>Storefront -> SEPA-Konfiguration</td>
-            </tr>
-                    <tr>
-                <td>SEPA Mandat automatisch versenden</td>
-                <td>sepaSendEmail</td>
-                <td>1</td>
-                <td>checkbox</td>
-                <td>Storefront -> SEPA-Konfiguration</td>
-            </tr>
-                    <tr>
-                <td>SEPA BIC Feld anzeigen</td>
-                <td>sepaShowBic</td>
-                <td>1</td>
-                <td>checkbox</td>
-                <td>Storefront -> SEPA-Konfiguration</td>
-            </tr>
-                    <tr>
-                <td>SEPA BIC Feld erforderlich</td>
-                <td>sepaRequireBic</td>
-                <td>1</td>
-                <td>checkbox</td>
-                <td>Storefront -> SEPA-Konfiguration</td>
-            </tr>
-                    <tr>
-                <td>SEPA Kreditinstitut Feld anzeigen</td>
-                <td>sepaShowBankName</td>
-                <td>1</td>
-                <td>checkbox</td>
-                <td>Storefront -> SEPA-Konfiguration</td>
-            </tr>
-                    <tr>
-                <td>SEPA Kreditinstitut Feld erforderlich</td>
-                <td>sepaRequireBankName</td>
-                <td>1</td>
-                <td>checkbox</td>
-                <td>Storefront -> SEPA-Konfiguration</td>
-            </tr>
-                    <tr>
-                <td>Hersteller SEO-Informationen anwenden</td>
-                <td>seoSupplier</td>
-                <td>1</td>
-                <td>checkbox</td>
-                <td>Storefront -> SEO/Router-Einstellungen</td>
-            </tr>
-                    <tr>
-                <td>SEO-Urls Hersteller-Template</td>
-                <td>seoSupplierRouteTemplate</td>
-                <td>{createSupplierPath supplierID=$sSupplier.id}/</td>
-                <td>text</td>
-                <td>Storefront -> SEO/Router-Einstellungen</td>
-            </tr>
-                    <tr>
-                <td>Fehler an Shopbetreiber senden</td>
-                <td>logMail</td>
-                <td>0</td>
-                <td>checkbox</td>
-                <td>System -> Log</td>
-            </tr>
-                    <tr>
-                <td>Maximales Alter für Referrer Statistikdaten</td>
-                <td>maximumReferrerAge</td>
-                <td>90</td>
-                <td>text</td>
-                <td>System -> Statistiken</td>
-            </tr>
-                    <tr>
-                <td>Maximales Alter für Artikel-Impressions</td>
-                <td>maximumImpressionAge</td>
-                <td>90</td>
-                <td>text</td>
-                <td>System -> Statistiken</td>
-            </tr>
-                    <tr>
-                <td>Artikel weiterempfehlen anzeigen</td>
-                <td>showTellAFriend</td>
-                <td></td>
-                <td>boolean</td>
-                <td>Storefront -> Artikelempfehlungen</td>
-            </tr>
-                    <tr>
-                <td>Speicherfrist in Tagen</td>
-                <td>lastarticles_time</td>
-                <td>15</td>
-                <td>number</td>
-                <td>Storefront -> Artikelverlauf</td>
-            </tr>
-                    <tr>
-                <td>Downloadoption für ESD Dateien</td>
-                <td>esdDownloadStrategy</td>
-                <td>1</td>
-                <td>select</td>
-                <td>Artikel -> ESD</td>
-            </tr>
-                    <tr>
-                <td>API Endpoint</td>
-                <td>update-api-endpoint</td>
-                <td>http://update-api.shopware.com/v1/</td>
-                <td>text</td>
-                <td>System -> Shopware Auto Update</td>
-            </tr>
-                    <tr>
-                <td>Update Kanal</td>
-                <td>update-channel</td>
-                <td>stable</td>
-                <td>select</td>
-                <td>System -> Shopware Auto Update</td>
-            </tr>
-                    <tr>
-                <td>Aktionscode</td>
-                <td>update-code</td>
-                <td></td>
-                <td>text</td>
-                <td>System -> Shopware Auto Update</td>
-            </tr>
-                    <tr>
-                <td>Fake Version</td>
-                <td>update-fake-version</td>
-                <td></td>
-                <td>text</td>
-                <td>System -> Shopware Auto Update</td>
-            </tr>
-                    <tr>
-                <td>Feedback API Endpoint</td>
-                <td>update-feedback-api-endpoint</td>
-                <td>http://feedback.update-api.shopware.com/v1/</td>
-                <td>text</td>
-                <td>System -> Shopware Auto Update</td>
-            </tr>
-                    <tr>
-                <td>Feedback senden</td>
-                <td>update-send-feedback</td>
-                <td>1</td>
-                <td>boolean</td>
-                <td>System -> Shopware Auto Update</td>
-            </tr>
-                    <tr>
-                <td>Unique identifier</td>
-                <td>trackingUniqueId</td>
-                <td></td>
-                <td>text</td>
-                <td>System -> Shopware Auto Update</td>
-            </tr>
-                    <tr>
-                <td>Verify Signature</td>
-                <td>update-verify-signature</td>
-                <td>1</td>
-                <td>boolean</td>
-                <td>System -> Shopware Auto Update</td>
-            </tr>
-                    <tr>
-                <td>Telefon anzeigen</td>
-                <td>showphonenumberfield</td>
-                <td></td>
-                <td>checkbox</td>
-                <td>Storefront -> Anmeldung / Registrierung</td>
-            </tr>
-                    <tr>
-                <td>Passwort muss zweimal eingegeben werden</td>
-                <td>doublepasswordvalidation</td>
-                <td></td>
-                <td>checkbox</td>
-                <td>Storefront -> Anmeldung / Registrierung</td>
-            </tr>
-                    <tr>
-                <td>Geburtstag anzeigen</td>
-                <td>showbirthdayfield</td>
-                <td></td>
-                <td>checkbox</td>
-                <td>Storefront -> Anmeldung / Registrierung</td>
-            </tr>
-                    <tr>
-                <td>Geburtstag als Pflichtfeld behandeln</td>
-                <td>requirebirthdayfield</td>
-                <td></td>
-                <td>checkbox</td>
-                <td>Storefront -> Anmeldung / Registrierung</td>
-            </tr>
-                    <tr>
-                <td>Adresszusatzzeile 1 anzeigen</td>
-                <td>showAdditionAddressLine1</td>
-                <td></td>
-                <td>checkbox</td>
-                <td>Storefront -> Anmeldung / Registrierung</td>
-            </tr>
-                    <tr>
-                <td>Adresszusatzzeile 2 anzeigen</td>
-                <td>showAdditionAddressLine2</td>
-                <td></td>
-                <td>checkbox</td>
-                <td>Storefront -> Anmeldung / Registrierung</td>
-            </tr>
-                    <tr>
-                <td>Adresszusatzzeile 1 als Pflichtfeld behandeln</td>
-                <td>requireAdditionAddressLine1</td>
-                <td></td>
-                <td>checkbox</td>
-                <td>Storefront -> Anmeldung / Registrierung</td>
-            </tr>
-                    <tr>
-                <td>Adresszusatzzeile 2 als Pflichtfeld behandeln</td>
-                <td>requireAdditionAddressLine2</td>
-                <td></td>
-                <td>checkbox</td>
-                <td>Storefront -> Anmeldung / Registrierung</td>
-            </tr>
-                    <tr>
-                <td>Anzahl der Produkte pro Queue-Request</td>
-                <td>addToQueuePerRequest</td>
-                <td>2048</td>
-                <td>number</td>
-                <td>Weitere Einstellungen -> Mehrfachänderung</td>
-            </tr>
-                    <tr>
-                <td>Anzahl der Produkte pro Batch-Request</td>
-                <td>batchItemsPerRequest</td>
-                <td>2048</td>
-                <td>number</td>
-                <td>Weitere Einstellungen -> Mehrfachänderung</td>
-            </tr>
-                    <tr>
-                <td>Rückgängig-Funktion aktivieren</td>
-                <td>enableBackup</td>
-                <td>1</td>
-                <td>checkbox</td>
-                <td>Weitere Einstellungen -> Mehrfachänderung</td>
-            </tr>
-                    <tr>
-                <td>Automatische Cache-Invalidierung aktivieren</td>
-                <td>clearCache</td>
-                <td></td>
-                <td>checkbox</td>
-                <td>Weitere Einstellungen -> Mehrfachänderung</td>
-            </tr>
-                    <tr>
-                <td>Versandkostenberechnung im Warenkob anzeigen</td>
-                <td>basketShowCalculation</td>
-                <td>1</td>
-                <td>boolean</td>
-                <td>Storefront -> Warenkorb / Artikeldetails</td>
-            </tr>
-                    <tr>
-                <td>"Seite nicht gefunden" Ziel</td>
-                <td>PageNotFoundDestination</td>
-                <td>-2</td>
-                <td>select</td>
-                <td>Storefront -> SEO/Router-Einstellungen</td>
-            </tr>
-                    <tr>
-                <td>"Seite nicht gefunden" Fehlercode</td>
-                <td>PageNotFoundCode</td>
-                <td>404</td>
-                <td>number</td>
-                <td>Storefront -> SEO/Router-Einstellungen</td>
-            </tr>
-                    <tr>
-                <td>"Ich bin" Auswahlfeld anzeigen</td>
-                <td>showCompanySelectField</td>
-                <td>1</td>
-                <td>checkbox</td>
-                <td>Storefront -> Anmeldung / Registrierung</td>
-            </tr>
-                    <tr>
-                <td>Shop ist familienfreundlich</td>
-                <td>metaIsFamilyFriendly</td>
-                <td>1</td>
-                <td>checkbox</td>
-                <td>Shopeinstellungen -> Stammdaten</td>
-            </tr>
-                    <tr>
-                <td>SEO-Urls Shopseiten Template</td>
-                <td>seoCustomSiteRouteTemplate</td>
-                <td>{$site.description}</td>
-                <td>text</td>
-                <td>Storefront -> SEO/Router-Einstellungen</td>
-            </tr>
-                    <tr>
-                <td>SEO-Urls Formular Template</td>
-                <td>seoFormRouteTemplate</td>
-                <td>{$form.name}</td>
-                <td>text</td>
-                <td>Storefront -> SEO/Router-Einstellungen</td>
-            </tr>
-                    <tr>
-                <td>Kategorie Standard Sortierung</td>
-                <td>defaultListingSorting</td>
-                <td>1</td>
-                <td>custom-sorting-selection</td>
-                <td>Storefront -> Kategorien / Listen</td>
-            </tr>
-                    <tr>
-                <td>Produkt Layout</td>
-                <td>searchProductBoxLayout</td>
-                <td>basic</td>
-                <td>product-box-layout-select</td>
-                <td>Storefront -> Suche</td>
-            </tr>
-                    <tr>
-                <td>Abverkaufsartikel ohne Lagerbestand ausblenden</td>
-                <td>hideNoInStock</td>
-                <td></td>
-                <td>checkbox</td>
-                <td>Storefront -> Warenkorb / Artikeldetails</td>
-            </tr>
-                    <tr>
-                <td>E-Mail Header Plaintext</td>
-                <td>emailheaderplain</td>
-                <td></td>
-                <td>textarea</td>
-                <td>Storefront -> E-Mail-Einstellungen</td>
-            </tr>
-                    <tr>
-                <td>E-Mail Footer Plaintext</td>
-                <td>emailfooterplain</td>
-                <td>
-Mit freundlichen Grüßen
-
-Ihr Team von {config name=shopName}</td>
-                <td>textarea</td>
-                <td>Storefront -> E-Mail-Einstellungen</td>
-            </tr>
-                    <tr>
-                <td>E-Mail Header HTML</td>
-                <td>emailheaderhtml</td>
-                <td><div>
-<img src="http://sw54.localhost/{$sShopURL}/themes/Frontend/Responsive/frontend/_public/src/img/logos/logo--tablet.png" alt="Logo"><br /></td>
-                <td>textarea</td>
-                <td>Storefront -> E-Mail-Einstellungen</td>
-            </tr>
-                    <tr>
-                <td>E-Mail Footer HTML</td>
-                <td>emailfooterhtml</td>
-                <td><br/>
-Mit freundlichen Grüßen<br/><br/>
-
-Ihr Team von {config name=shopName}</div></td>
-                <td>textarea</td>
-                <td>Storefront -> E-Mail-Einstellungen</td>
-            </tr>
-                    <tr>
-                <td>Sofortdownloads im Account anzeigen</td>
-                <td>showEsd</td>
-                <td>1</td>
-                <td>boolean</td>
-                <td>Artikel -> ESD</td>
-            </tr>
-                    <tr>
-                <td>'First Run Wizard' beim Aufruf des Backends starten</td>
-                <td>firstRunWizardEnabled</td>
-                <td>1</td>
-                <td>checkbox</td>
-                <td>System -> Backend</td>
-            </tr>
-                    <tr>
-                <td>Checkbox zum Widerrufsrecht bei ESD Artikeln anzeigen</td>
-                <td>showEsdWarning</td>
-                <td>1</td>
-                <td>boolean</td>
-                <td>Storefront -> Bestellabschluss</td>
-            </tr>
-                    <tr>
-                <td>Artikel-Freitextfeld für Dienstleistungsartikel</td>
-                <td>serviceAttrField</td>
-                <td></td>
-                <td>text</td>
-                <td>Storefront -> Bestellabschluss</td>
-            </tr>
-                    <tr>
-                <td>prev/next-Tag auf paginierten Seiten benutzen</td>
-                <td>seoIndexPaginationLinks</td>
-                <td></td>
-                <td>checkbox</td>
-                <td>Storefront -> SEO/Router-Einstellungen</td>
-            </tr>
-                    <tr>
-                <td>Rauschfilterung bei Thumbnails</td>
-                <td>thumbnailNoiseFilter</td>
-                <td></td>
-                <td>checkbox</td>
-                <td>Storefront -> Medien</td>
-            </tr>
-                    <tr>
-                <td>Zeige ähnliche Artikel auf der "Artikel nicht gefunden" Seite an</td>
-                <td>RelatedArticlesOnArticleNotFound</td>
-                <td>1</td>
-                <td>boolean</td>
-                <td>Storefront -> SEO/Router-Einstellungen</td>
-            </tr>
-                    <tr>
-                <td>PLZ vor dem Stadtfeld anzeigen</td>
-                <td>showZipBeforeCity</td>
-                <td>1</td>
-                <td>checkbox</td>
-                <td>Storefront -> Anmeldung / Registrierung</td>
-            </tr>
-                    <tr>
-                <td>Mobile Sitemap generieren</td>
-                <td>mobileSitemap</td>
-                <td>1</td>
-                <td>boolean</td>
-                <td>Storefront -> Sitemap</td>
-            </tr>
-                    <tr>
-                <td>Mindestabnahme bei der Günstigsten-Preis-Berechnung berücksichtigen</td>
-                <td>calculateCheapestPriceWithMinPurchase</td>
-                <td></td>
-                <td>checkbox</td>
-                <td>Storefront -> Kategorien / Listen</td>
-            </tr>
-                    <tr>
-                <td>Staffelpreise in der Günstigsten Preis Berechnung berücksichtigen</td>
-                <td>useLastGraduationForCheapestPrice</td>
-                <td></td>
-                <td>checkbox</td>
-                <td>Storefront -> Kategorien / Listen</td>
-            </tr>
-                    <tr>
-                <td>Nummern Suche aktivieren</td>
-                <td>activateNumberSearch</td>
-                <td>1</td>
-                <td>checkbox</td>
-                <td>Storefront -> Suche</td>
-            </tr>
-                    <tr>
-                <td>"Und" Suchlogik verwenden</td>
-                <td>enableAndSearchLogic</td>
-                <td></td>
-                <td>checkbox</td>
-                <td>Storefront -> Suche</td>
-            </tr>
-                    <tr>
-                <td>Zahlungsart bei Bestellung immer auswählen</td>
-                <td>always_select_payment</td>
-                <td></td>
-                <td>boolean</td>
-                <td>Storefront -> Bestellabschluss</td>
-            </tr>
-                    <tr>
-                <td>Ajax Timeout</td>
-                <td>ajaxTimeout</td>
-                <td>30</td>
-                <td>number</td>
-                <td>System -> Backend</td>
-            </tr>
-                    <tr>
-                <td>Verfügbare Anreden</td>
-                <td>shopsalutations</td>
-                <td>mr,ms</td>
-                <td>text</td>
-                <td>Storefront -> Anmeldung / Registrierung</td>
-            </tr>
-                    <tr>
-                <td>Titel Feld anzeigen</td>
-                <td>displayprofiletitle</td>
-                <td></td>
-                <td>boolean</td>
-                <td>Storefront -> Anmeldung / Registrierung</td>
-            </tr>
-                    <tr>
-                <td>Bestätigungsmail nach Registrierung verschicken</td>
-                <td>sendRegisterConfirmation</td>
-                <td>1</td>
-                <td>boolean</td>
-                <td>Storefront -> Anmeldung / Registrierung</td>
-            </tr>
-                    <tr>
-                <td>Maximale Anzahl Produkte pro Seite</td>
-                <td>maxStoreFrontLimit</td>
-                <td>100</td>
-                <td>number</td>
-                <td>Storefront -> Kategorien / Listen</td>
-            </tr>
-                    <tr>
-                <td>Global strip_tags verwenden</td>
-                <td>strip_tags</td>
-                <td>1</td>
-                <td>checkbox</td>
-                <td>System -> InputFilter</td>
-            </tr>
-                    <tr>
-                <td>Nur Subshopspezifische Bewertungen anzeigen</td>
-                <td>displayOnlySubShopVotes</td>
-                <td></td>
-                <td>checkbox</td>
-                <td>Storefront -> Artikelbewertungen</td>
-            </tr>
-                    <tr>
-                <td>Captcha Methode</td>
-                <td>captchaMethod</td>
-                <td>default</td>
-                <td>combo</td>
-                <td>Storefront -> Captcha</td>
-            </tr>
-                    <tr>
-                <td>Nach Login ausblenden</td>
-                <td>noCaptchaAfterLogin</td>
-                <td></td>
-                <td>checkbox</td>
-                <td>Storefront -> Captcha</td>
-            </tr>
-                    <tr>
-                <td>Kaufenbutton im Listing anzeigen</td>
-                <td>displayListingBuyButton</td>
-                <td></td>
-                <td>checkbox</td>
-                <td>Storefront -> Kategorien / Listen</td>
-            </tr>
-                    <tr>
-                <td>Cookie Hinweis anzeigen</td>
-                <td>show_cookie_note</td>
-                <td></td>
-                <td>boolean</td>
-                <td>Storefront -> Cookie Hinweis</td>
-            </tr>
-                    <tr>
-                <td>Link zur Datenschutzerklärung</td>
-                <td>data_privacy_statement_link</td>
-                <td></td>
-                <td>text</td>
-                <td>Storefront -> Cookie Hinweis</td>
-            </tr>
-                    <tr>
-                <td>Captcha in Registrierung verwenden</td>
-                <td>registerCaptcha</td>
-                <td>nocaptcha</td>
-                <td>combo</td>
-                <td>Storefront -> Anmeldung / Registrierung</td>
-            </tr>
-                    <tr>
-                <td>Verfügbare Sortierungen</td>
-                <td>searchSortings</td>
-                <td>|7|1|2|3|4|5|</td>
-                <td>custom-sorting-grid</td>
-                <td>Storefront -> Suche</td>
-            </tr>
-                    <tr>
-                <td>Verfügbare filter</td>
-                <td>searchFacets</td>
-                <td>|1|2|3|4|5|6|7|</td>
-                <td>custom-facet-grid</td>
-                <td>Storefront -> Suche</td>
-            </tr>
-                    <tr>
-                <td>Captcha in Newslettter  verwenden</td>
-                <td>newsletterCaptcha</td>
-                <td>nocaptcha</td>
-                <td>combo</td>
-                <td>Weitere Einstellungen -> Newsletter</td>
-            </tr>
-                    <tr>
-                <td>Shopware Login Cookie erstellen</td>
-                <td>useSltCookie</td>
-                <td>1</td>
-                <td>boolean</td>
-                <td>Storefront -> Anmeldung / Registrierung</td>
-            </tr>
-                    <tr>
-                <td>Backend Menüeinträge automatisch ausklappen</td>
-                <td>backendMenuOnHover</td>
-                <td>1</td>
-                <td>checkbox</td>
-                <td>System -> Backend</td>
-            </tr>
-                    <tr>
-                <td>Benachrichtigungs Position</td>
-                <td>growlMessageDisplayPosition</td>
-                <td>top-right</td>
-                <td>select</td>
-                <td>System -> Backend</td>
-            </tr>
-                    <tr>
-                <td>Alternative E-Mail-Adresse für Fehlermeldungen</td>
-                <td>logMailAddress</td>
-                <td></td>
-                <td>text</td>
-                <td>System -> Log</td>
-            </tr>
-                    <tr>
-                <td>Produktlayout im Herstellerlisting</td>
-                <td>manufacturerProductBoxLayout</td>
-                <td>basic</td>
-                <td>product-box-layout-select</td>
-                <td>Storefront -> Kategorien / Listen</td>
-            </tr>
-            </tbody>
-</table>
+| Name,Label,Beschreibung,Standard-Wert,Typ,"Wo finde ich das?" |                                                                                     |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |                                                                                                                                                                                                                                                                                                                                                           |                           |                                                |
+|---------------------------------------------------------------|-------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------|------------------------------------------------|
+| vouchertax                                                    | MwSt. Gutscheine                                                                    |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             | 19                                                                                                                                                                                                                                                                                                                                                        | text                      | Artikel -> Sonstige MwSt.-Sätze                |
+| discounttax                                                   | MwSt. Rabatte                                                                       |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             | 19                                                                                                                                                                                                                                                                                                                                                        | text                      | Artikel -> Sonstige MwSt.-Sätze                |
+| voteunlock                                                    | Artikel-Bewertungen müssen freigeschaltet werden                                    |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             | 1                                                                                                                                                                                                                                                                                                                                                         | boolean                   | Storefront -> Artikelbewertungen               |
+| backendautoordernumber                                        | Automatischer Vorschlag der Artikelnummer                                           |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             | 1                                                                                                                                                                                                                                                                                                                                                         | boolean                   | Artikel -> Artikelnummern                      |
+| backendautoordernumberprefix                                  | Präfix für automatisch generierte Artikelnummer                                     |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             | SW                                                                                                                                                                                                                                                                                                                                                        | text                      | Artikel -> Artikelnummern                      |
+| votedisable                                                   | Artikel-Bewertungen deaktivieren                                                    |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |                                                                                                                                                                                                                                                                                                                                                           | boolean                   | Storefront -> Artikelbewertungen               |
+| votesendcalling                                               | Automatische Erinnerung zur Artikelbewertung senden                                 | Nach Kauf dem Benutzer an die Artikelbewertung via E-Mail erinnern                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          | 1                                                                                                                                                                                                                                                                                                                                                         | boolean                   | Storefront -> Artikelbewertungen               |
+| votecallingtime                                               | Tage bis die Erinnerungs-E-Mail verschickt wird                                     | Tage bis der Kunde via E-Mail an die Artikel-Bewertung erinnert wird                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        | 1                                                                                                                                                                                                                                                                                                                                                         | text                      | Storefront -> Artikelbewertungen               |
+| taxautomode                                                   | Steuer für Rabatte dynamisch feststellen                                            |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             | 1                                                                                                                                                                                                                                                                                                                                                         | boolean                   | Artikel -> Sonstige MwSt.-Sätze                |
+| lastarticles_show                                             | Artikelverlauf anzeigen                                                             |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             | 1                                                                                                                                                                                                                                                                                                                                                         | checkbox                  | Storefront -> Artikelverlauf                   |
+| lastarticles_controller                                       | Controller-Auswahl                                                                  |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             | index, listing, detail, custom, newsletter, sitemap, campaign                                                                                                                                                                                                                                                                                             | text                      | Storefront -> Artikelverlauf                   |
+| lastarticlestoshow                                            | Anzahl Artikel in Verlauf (zuletzt angeschaut)                                      |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             | 5                                                                                                                                                                                                                                                                                                                                                         | text                      | Storefront -> Artikelverlauf                   |
+| mailer_mailer                                                 | Methode zum Senden der Mail                                                         | mail, smtp oder file                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        | mail                                                                                                                                                                                                                                                                                                                                                      | text                      | Shopeinstellungen -> Mailer                    |
+| mailer_hostname                                               | Hostname für die Message-ID                                                         | Wird im Header mittels HELO verwendet. Andernfalls wird der Wert aus SERVER_NAME oder "localhost.localdomain" genutzt.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |                                                                                                                                                                                                                                                                                                                                                           | text                      | Shopeinstellungen -> Mailer                    |
+| mailer_host                                                   | Mail Host                                                                           | Es kann auch ein anderer Port über dieses Muster genutzt werden: [hostname:port] - Bsp.: smtp1.example.com:25                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               | localhost                                                                                                                                                                                                                                                                                                                                                 | text                      | Shopeinstellungen -> Mailer                    |
+| mailer_port                                                   | Standard Port                                                                       | Setzt den Standard SMTP Server-Port                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         | 25                                                                                                                                                                                                                                                                                                                                                        | text                      | Shopeinstellungen -> Mailer                    |
+| mailer_smtpsecure                                             | Verbindungs Präfix                                                                  | "", ssl, oder tls                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |                                                                                                                                                                                                                                                                                                                                                           | text                      | Shopeinstellungen -> Mailer                    |
+| mailer_username                                               | SMTP Benutzername                                                                   |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |                                                                                                                                                                                                                                                                                                                                                           | text                      | Shopeinstellungen -> Mailer                    |
+| mailer_password                                               | SMTP Passwort                                                                       |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |                                                                                                                                                                                                                                                                                                                                                           | text                      | Shopeinstellungen -> Mailer                    |
+| mailer_auth                                                   | Verbindungs-Authentifizierung                                                       | plain, login oder crammd5                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |                                                                                                                                                                                                                                                                                                                                                           | text                      | Shopeinstellungen -> Mailer                    |
+| setoffline                                                    | Shop wegen Wartung sperren                                                          |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |                                                                                                                                                                                                                                                                                                                                                           | boolean                   | System -> Wartung                              |
+| offlineip                                                     | Von der Sperrung ausgeschlossene IP                                                 |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             | 0                                                                                                                                                                                                                                                                                                                                                         | text                      | System -> Wartung                              |
+| show                                                          | Menü zeigen                                                                         |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             | 1                                                                                                                                                                                                                                                                                                                                                         | checkbox                  | Storefront -> Erweitertes Menü                 |
+| levels                                                        | Anzahl Ebenen                                                                       |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             | 2                                                                                                                                                                                                                                                                                                                                                         | text                      | Storefront -> Erweitertes Menü                 |
+| caching                                                       | Caching aktivieren                                                                  |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             | 1                                                                                                                                                                                                                                                                                                                                                         | checkbox                  | Storefront -> Erweitertes Menü                 |
+| cachetime                                                     | Cachezeit                                                                           |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             | 86400                                                                                                                                                                                                                                                                                                                                                     | interval                  | Storefront -> Erweitertes Menü                 |
+| compareShow                                                   | Vergleich zeigen                                                                    |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             | 1                                                                                                                                                                                                                                                                                                                                                         | checkbox                  | Storefront -> Artikelvergleich                 |
+| maxComparisons                                                | Maximale Anzahl von zu vergleichenden Artikeln                                      |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             | 5                                                                                                                                                                                                                                                                                                                                                         | number                    | Storefront -> Artikelvergleich                 |
+| articlesperpage                                               | Artikel pro Seite                                                                   |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             | 12                                                                                                                                                                                                                                                                                                                                                        | text                      | Storefront -> Kategorien / Listen              |
+| markasnew                                                     | Artikel als neu markieren (Tage)                                                    |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             | 30                                                                                                                                                                                                                                                                                                                                                        | text                      | Storefront -> Topseller / Neuheiten            |
+| markastopseller                                               | Artikel als Topseller markieren (Verkäufe)                                          |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             | 30                                                                                                                                                                                                                                                                                                                                                        | text                      | Storefront -> Topseller / Neuheiten            |
+| chartrange                                                    | Anzahl Topseller für Charts                                                         |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             | 8                                                                                                                                                                                                                                                                                                                                                         | number                    | Storefront -> Topseller / Neuheiten            |
+| numberarticlestoshow                                          | Auswahl Artikel pro Seite                                                           |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             | 12|24|36|48                                                                                                                                                                                                                                                                                                                                               | text                      | Storefront -> Kategorien / Listen              |
+| categorytemplates                                             | Verfügbare Listen Layouts                                                           |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |                                                                                                                                                                                                                                                                                                                                                           | textarea                  | Storefront -> Kategorien / Listen              |
+| maxpurchase                                                   | Max. wählbare Artikelmenge / Artikel über Pulldown-Menü                             |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             | 100                                                                                                                                                                                                                                                                                                                                                       | text                      | Storefront -> Warenkorb / Artikeldetails       |
+| notavailable                                                  | Text für nicht verfügbare Artikel                                                   |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             | Lieferzeit ca. 5 Tage                                                                                                                                                                                                                                                                                                                                     | text                      | Storefront -> Warenkorb / Artikeldetails       |
+| maxcrosssimilar                                               | Anzahl ähnlicher Artikel Cross-Selling                                              |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             | 8                                                                                                                                                                                                                                                                                                                                                         | text                      | Storefront -> Cross-Selling / Ähnliche Art.    |
+| maxcrossalsobought                                            | Anzahl "Kunden kauften auch" Artikel Cross-Selling                                  |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             | 8                                                                                                                                                                                                                                                                                                                                                         | text                      | Storefront -> Cross-Selling / Ähnliche Art.    |
+| chartinterval                                                 | Anzahl der Tage, die für die Topseller-Generierung berücksichtigt werden            |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             | 10                                                                                                                                                                                                                                                                                                                                                        | text                      | Storefront -> Topseller / Neuheiten            |
+| similarlimit                                                  | Anzahl automatisch ermittelter, ähnlicher Artikel (Detailseite)                     | Wenn keine ähnlichen Produkte gefunden wurden, kann Shopware automatisch alternative Vorschläge generieren. Du kannst die automatischen Vorschläge aktivieren, indem du einen Wert größer als 0 einträgst. Das Aktivieren kann sich negativ auf die Performance des Shops auswirken.                                                                                                                                                                                                                                                                                                                                        | 0                                                                                                                                                                                                                                                                                                                                                         | text                      | Storefront -> Cross-Selling / Ähnliche Art.    |
+| basketshippinginfo                                            | Lieferzeit im Warenkorb anzeigen                                                    |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             | 1                                                                                                                                                                                                                                                                                                                                                         | boolean                   | Storefront -> Warenkorb / Artikeldetails       |
+| inquiryid                                                     | Anfrage-Formular ID                                                                 |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             | 16                                                                                                                                                                                                                                                                                                                                                        | text                      | Storefront -> Warenkorb / Artikeldetails       |
+| inquiryvalue                                                  | Mind. Warenkorbwert ab dem die Möglichkeit der individuellen Anfrage angeboten wird |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             | 150                                                                                                                                                                                                                                                                                                                                                       | text                      | Storefront -> Warenkorb / Artikeldetails       |
+| usezoomplus                                                   | Zoomviewer statt Lightbox auf Detailseite                                           |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             | 1                                                                                                                                                                                                                                                                                                                                                         | boolean                   | Storefront -> Warenkorb / Artikeldetails       |
+| deactivatebasketonnotification                                | Warenkorb bei E-Mail-Benachrichtigung ausblenden                                    | Warenkorb bei aktivierter E-Mail-Benachrichtigung und nicht vorhandenem Lagerbestand ausblenden                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             | 1                                                                                                                                                                                                                                                                                                                                                         | boolean                   | Storefront -> Warenkorb / Artikeldetails       |
+| instockinfo                                                   | Lagerbestands-Unterschreitung im Warenkorb anzeigen                                 |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |                                                                                                                                                                                                                                                                                                                                                           | boolean                   | Storefront -> Warenkorb / Artikeldetails       |
+| categorydetaillink                                            | Direkt auf Detailspringen, falls nur ein Artikel vorhanden ist                      |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |                                                                                                                                                                                                                                                                                                                                                           | boolean                   | Storefront -> Kategorien / Listen              |
+| detailtemplates                                               | Verfügbare Templates Detailseite                                                    |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             | :Standard                                                                                                                                                                                                                                                                                                                                                 | textarea                  | Storefront -> Warenkorb / Artikeldetails       |
+| minpassword                                                   | Mindestlänge Passwort (Registrierung)                                               |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             | 8                                                                                                                                                                                                                                                                                                                                                         | text                      | Storefront -> Anmeldung / Registrierung        |
+| defaultpayment                                                | Standardzahlungsart (Id) (Registrierung)                                            |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             | 5                                                                                                                                                                                                                                                                                                                                                         | select                    | Storefront -> Anmeldung / Registrierung        |
+| newsletterdefaultgroup                                        | Standard-Empfangsgruppe (ID) für registrierte Kunden (System / Newsletter)          |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             | 1                                                                                                                                                                                                                                                                                                                                                         | text                      | Storefront -> Anmeldung / Registrierung        |
+| shopwaremanagedcustomernumbers                                | Shopware generiert Kundennummern                                                    |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             | 1                                                                                                                                                                                                                                                                                                                                                         | boolean                   | Storefront -> Anmeldung / Registrierung        |
+| ignoreagb                                                     | AGB - Checkbox auf Kassenseite deaktivieren                                         |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |                                                                                                                                                                                                                                                                                                                                                           | boolean                   | Storefront -> Anmeldung / Registrierung        |
+| actdprcheck                                                   | Datenschutz-Bedingungen müssen über Checkbox akzeptiert werden                      |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |                                                                                                                                                                                                                                                                                                                                                           | boolean                   | Storefront -> Anmeldung / Registrierung        |
+| paymentdefault                                                | Fallback-Zahlungsart (ID)                                                           |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             | 5                                                                                                                                                                                                                                                                                                                                                         | text                      | Storefront -> Anmeldung / Registrierung        |
+| doubleemailvalidation                                         | E-Mail Addresse muss zweimal eingegeben werden.                                     | E-Mail Addresse muss zweimal eingegeben werden, um Tippfehler zu vermeiden.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |                                                                                                                                                                                                                                                                                                                                                           | boolean                   | Storefront -> Anmeldung / Registrierung        |
+| newsletterextendedfields                                      | Erweiterte Felder in Newsletter-Registrierung abfragen                              |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             | 1                                                                                                                                                                                                                                                                                                                                                         | boolean                   | Storefront -> Anmeldung / Registrierung        |
+| noaccountdisable                                              | "Kein Kundenkonto" deaktivieren                                                     |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |                                                                                                                                                                                                                                                                                                                                                           | boolean                   | Storefront -> Anmeldung / Registrierung        |
+| blockIp                                                       | IP von Statistiken ausschließen                                                     |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |                                                                                                                                                                                                                                                                                                                                                           | text                      | System -> Statistiken                          |
+| sql_protection                                                | SQL-Injection-Schutz aktivieren                                                     |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             | 1                                                                                                                                                                                                                                                                                                                                                         | checkbox                  | System -> InputFilter                          |
+| xss_protection                                                | XSS-Schutz aktivieren                                                               |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             | 1                                                                                                                                                                                                                                                                                                                                                         | checkbox                  | System -> InputFilter                          |
+| rfi_protection                                                | RemoteFileInclusion-Schutz aktivieren                                               |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             | 1                                                                                                                                                                                                                                                                                                                                                         | checkbox                  | System -> InputFilter                          |
+| minsearchlenght                                               | Minimale Suchwortlänge                                                              |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             | 3                                                                                                                                                                                                                                                                                                                                                         | text                      | Storefront -> Suche                            |
+| no_order_mail                                                 | Bestellbestätigung an Shopbetreiber deaktivieren                                    |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |                                                                                                                                                                                                                                                                                                                                                           | boolean                   | Storefront -> E-Mail-Einstellungen             |
+| discountnumber                                                | Rabatte Bestellnummer                                                               |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             | sw-discount                                                                                                                                                                                                                                                                                                                                               | text                      | Storefront -> Rabatte / Zuschläge              |
+| surchargenumber                                               | Mindermengen Bestellnummer                                                          |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             | sw-surcharge                                                                                                                                                                                                                                                                                                                                              | text                      | Storefront -> Rabatte / Zuschläge              |
+| paymentsurchargenumber                                        | Zuschlag für Zahlungsart (Bestellnummer)                                            |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             | sw-payment                                                                                                                                                                                                                                                                                                                                                | text                      | Storefront -> Rabatte / Zuschläge              |
+| maxlivesearchresults                                          | Anzahl der Ergebnisse in der Livesuche                                              |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             | 6                                                                                                                                                                                                                                                                                                                                                         | text                      | Storefront -> Suche                            |
+| send_confirm_mail                                             | Registrierungsbestätigung in CC an Shopbetreiber schicken                           |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             | 1                                                                                                                                                                                                                                                                                                                                                         | boolean                   | Storefront -> E-Mail-Einstellungen             |
+| optinnewsletter                                               | Double-Opt-In für Newsletter-Anmeldungen                                            |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |                                                                                                                                                                                                                                                                                                                                                           | boolean                   | Storefront -> E-Mail-Einstellungen             |
+| optinvote                                                     | Double-Opt-In für Artikel-Bewertungen                                               |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             | 1                                                                                                                                                                                                                                                                                                                                                         | boolean                   | Storefront -> E-Mail-Einstellungen             |
+| shippingdiscountnumber                                        | Abschlag-Versandregel (Bestellnummer)                                               |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             | SHIPPINGDISCOUNT                                                                                                                                                                                                                                                                                                                                          | text                      | Storefront -> Rabatte / Zuschläge              |
+| orderstatemailack                                             | Bestellstatus - Änderungen CC-Adresse                                               |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |                                                                                                                                                                                                                                                                                                                                                           | text                      | Storefront -> E-Mail-Einstellungen             |
+| premiumshippiungasketselect                                   | Erweitere SQL-Abfrage                                                               |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             | MAX(a.topseller) as has_topseller, MAX(at.attr3) as has_comment, MAX(b.esdarticle) as has_esd                                                                                                                                                                                                                                                             | text                      | Storefront -> Versandkosten-Modul              |
+| premiumshippingnoorder                                        | Bestellung bei keiner verfügbaren Versandart blocken                                |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |                                                                                                                                                                                                                                                                                                                                                           | boolean                   | Storefront -> Versandkosten-Modul              |
+| routertolower                                                 | Nur Kleinbuchstaben in den Urls nutzen                                              |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             | 1                                                                                                                                                                                                                                                                                                                                                         | boolean                   | Storefront -> SEO/Router-Einstellungen         |
+| seometadescription                                            | Meta-Description von Artikel/Kategorien aufbereiten                                 |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             | 1                                                                                                                                                                                                                                                                                                                                                         | boolean                   | Storefront -> SEO/Router-Einstellungen         |
+| routerremovecategory                                          | KategorieID aus Url entfernen                                                       |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |                                                                                                                                                                                                                                                                                                                                                           | boolean                   | Storefront -> SEO/Router-Einstellungen         |
+| seoqueryblacklist                                             | SEO-Noindex Querys                                                                  |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             | sPage,sPerPage,sSupplier,sFilterProperties,p,n,s,f                                                                                                                                                                                                                                                                                                        | text                      | Storefront -> SEO/Router-Einstellungen         |
+| seoviewportblacklist                                          | SEO-Noindex Viewports                                                               |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             | login,ticket,tellafriend,note,support,basket,admin,registerFC,newsletter,search,search,account,checkout,register                                                                                                                                                                                                                                          | text                      | Storefront -> SEO/Router-Einstellungen         |
+| seoremovecomments                                             | Html-Kommentare entfernen                                                           |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             | 1                                                                                                                                                                                                                                                                                                                                                         | boolean                   | Storefront -> SEO/Router-Einstellungen         |
+| seoqueryalias                                                 | Query-Aliase                                                                        |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             | sSearch=q,sPage=p,sPerPage=n,sSupplier=s,sFilterProperties=f,sCategory=c,sCoreId=u,sTarget=t,sValidation=v,sTemplate=l,priceMin=min,priceMax=max,shippingFree=free,immediateDelivery=delivery,sSort=o,categoryFilter=cf,variants=var                                                                                                                      | textarea                  | Storefront -> SEO/Router-Einstellungen         |
+| seobacklinkwhitelist                                          | SEO-Follow Backlinks                                                                |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             | www.shopware.de,www.shopware.ag,www.shopware-ag.de                                                                                                                                                                                                                                                                                                        | textarea                  | Storefront -> SEO/Router-Einstellungen         |
+| routerlastupdate                                              | Datum des letzten Updates                                                           |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |                                                                                                                                                                                                                                                                                                                                                           | datetime                  | Storefront -> SEO/Router-Einstellungen         |
+| routercache                                                   | SEO-Urls Cachezeit Tabelle                                                          |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             | 86400                                                                                                                                                                                                                                                                                                                                                     | text                      | Storefront -> SEO/Router-Einstellungen         |
+| vatcheckrequired                                              | USt-IdNr. für Firmenkunden als Pflichtfeld markieren                                |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |                                                                                                                                                                                                                                                                                                                                                           | boolean                   | Storefront -> Anmeldung / Registrierung        |
+| routerarticletemplate                                         | SEO-Urls Artikel-Template                                                           |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             | {sCategoryPath articleID=$sArticle.id}/{$sArticle.id}/{$sArticle.name}                                                                                                                                                                                                                                                                                    | text                      | Storefront -> SEO/Router-Einstellungen         |
+| routercategorytemplate                                        | SEO-Urls Kategorie-Template                                                         |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             | {sCategoryPath categoryID=$sCategory.id}/                                                                                                                                                                                                                                                                                                                 | text                      | Storefront -> SEO/Router-Einstellungen         |
+| seostaticurls                                                 | sonstige SEO-Urls                                                                   |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |                                                                                                                                                                                                                                                                                                                                                           | textarea                  | Storefront -> SEO/Router-Einstellungen         |
+| shopName                                                      | Name des Shops                                                                      |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             | Shopware Demo                                                                                                                                                                                                                                                                                                                                             | text                      | Shopeinstellungen -> Stammdaten                |
+| mail                                                          | Shopbetreiber E-Mail                                                                |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             | info@example.com                                                                                                                                                                                                                                                                                                                                          | text                      | Shopeinstellungen -> Stammdaten                |
+| address                                                       | Adresse                                                                             |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |                                                                                                                                                                                                                                                                                                                                                           | textarea                  | Shopeinstellungen -> Stammdaten                |
+| bankAccount                                                   | Bankverbindung                                                                      |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |                                                                                                                                                                                                                                                                                                                                                           | textarea                  | Shopeinstellungen -> Stammdaten                |
+| captchaColor                                                  | Schriftfarbe Captcha (R,G,B)                                                        |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             | 51,51,51                                                                                                                                                                                                                                                                                                                                                  | text                      | Storefront -> Captcha                          |
+| baseFile                                                      | Base-File                                                                           |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             | shopware.php                                                                                                                                                                                                                                                                                                                                              | text                      | System                                         |
+| esdKey                                                        | ESD-Key                                                                             |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             | 552211cce724117c3178e3d22bec532ec                                                                                                                                                                                                                                                                                                                         | text                      | Artikel -> ESD                                 |
+| blogdetailtemplates                                           | Verfügbare Templates Blog-Detailseite                                               |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             | :Standard;                                                                                                                                                                                                                                                                                                                                                | textarea                  | Storefront -> Warenkorb / Artikeldetails       |
+| fuzzysearchexactmatchfactor                                   | Faktor für genaue Treffer                                                           |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             | 100                                                                                                                                                                                                                                                                                                                                                       | number                    | Storefront -> Suche                            |
+| fuzzysearchlastupdate                                         | Datum des letzten Updates                                                           |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             | 2010-01-01 00:00:00                                                                                                                                                                                                                                                                                                                                       | datetime                  | Storefront -> Suche                            |
+| fuzzysearchmatchfactor                                        | Faktor für unscharfe Treffer                                                        |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             | 5                                                                                                                                                                                                                                                                                                                                                         | number                    | Storefront -> Suche                            |
+| fuzzysearchmindistancentop                                    | Minimale Relevanz zum Topartikel in Prozent                                         |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             | 20                                                                                                                                                                                                                                                                                                                                                        | number                    | Storefront -> Suche                            |
+| fuzzysearchpartnamedistancen                                  | Maximal-Distanz für Teilnamen in Prozent                                            |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             | 25                                                                                                                                                                                                                                                                                                                                                        | number                    | Storefront -> Suche                            |
+| fuzzysearchpatternmatchfactor                                 | Faktor für Teiltreffer                                                              |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             | 50                                                                                                                                                                                                                                                                                                                                                        | number                    | Storefront -> Suche                            |
+| fuzzysearchselectperpage                                      | Auswahl Ergebnisse pro Seite                                                        |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             | 12|24|36|48                                                                                                                                                                                                                                                                                                                                               | text                      | Storefront -> Suche                            |
+| esdMinSerials                                                 | ESD-Min-Serials                                                                     |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             | 5                                                                                                                                                                                                                                                                                                                                                         | text                      | Artikel -> ESD                                 |
+| alsoBoughtShow                                                | Anzeigen der Kunden-kauften-auch-Empfehlung                                         |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             | 1                                                                                                                                                                                                                                                                                                                                                         | checkbox                  | Storefront -> Artikelempfehlungen              |
+| alsoBoughtPerPage                                             | Anzahl an Artikel pro Seite in der Liste                                            |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             | 4                                                                                                                                                                                                                                                                                                                                                         | number                    | Storefront -> Artikelempfehlungen              |
+| alsoBoughtMaxPages                                            | Maximale Anzahl von Seiten in der Liste                                             |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             | 10                                                                                                                                                                                                                                                                                                                                                        | number                    | Storefront -> Artikelempfehlungen              |
+| similarViewedShow                                             | Anzeigen der Kunden-schauten-sich-auch-an-Empfehlung                                |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             | 1                                                                                                                                                                                                                                                                                                                                                         | checkbox                  | Storefront -> Artikelempfehlungen              |
+| similarViewedPerPage                                          | Anzahl an Artikel pro Seite in der Liste                                            |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             | 4                                                                                                                                                                                                                                                                                                                                                         | number                    | Storefront -> Artikelempfehlungen              |
+| similarViewedMaxPages                                         | Maximale Anzahl von Seiten in der Liste                                             |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             | 10                                                                                                                                                                                                                                                                                                                                                        | number                    | Storefront -> Artikelempfehlungen              |
+| revocationNotice                                              | Zeige Widerrufsbelehrung an                                                         |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             | 1                                                                                                                                                                                                                                                                                                                                                         | boolean                   | Storefront -> Bestellabschluss                 |
+| newsletter                                                    | Zeige Newsletter-Registrierung an                                                   |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |                                                                                                                                                                                                                                                                                                                                                           | boolean                   | Storefront -> Bestellabschluss                 |
+| bankConnection                                                | Zeige Bankverbindungshinweis an                                                     |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |                                                                                                                                                                                                                                                                                                                                                           | boolean                   | Storefront -> Bestellabschluss                 |
+| additionalFreeText                                            | Zeige weiteren Hinweis an                                                           | Snippet: ConfirmTextOrderDefault                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |                                                                                                                                                                                                                                                                                                                                                           | boolean                   | Storefront -> Bestellabschluss                 |
+| commentVoucherArticle                                         | Zeige weitere Optionen an                                                           | Artikel hinzuf&uuml;gen, Gutschein hinzuf&uuml;gen, Kommentarfunktion                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |                                                                                                                                                                                                                                                                                                                                                           | boolean                   | Storefront -> Bestellabschluss                 |
+| premiumArticles                                               | Zeige Prämienartikel an                                                             |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |                                                                                                                                                                                                                                                                                                                                                           | boolean                   | Storefront -> Bestellabschluss                 |
+| countryNotice                                                 | Zeige Länder-Beschreibung an                                                        |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             | 1                                                                                                                                                                                                                                                                                                                                                         | boolean                   | Storefront -> Bestellabschluss                 |
+| nettoNotice                                                   | Zeige Hinweis für Netto-Bestellungen an                                             |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |                                                                                                                                                                                                                                                                                                                                                           | boolean                   | Storefront -> Bestellabschluss                 |
+| mainFeatures                                                  | Template für die wesentliche Merkmale                                               |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             | {if $sBasketItem.additional_details.properties}    {$sBasketItem.additional_details.properties}{elseif $sBasketItem.additional_details.description}    {$sBasketItem.additional_details.description}{else}    {$sBasketItem.additional_details.description_long|strip_tags|truncate:50}{/if}                                                              | textarea                  | Storefront -> Bestellabschluss                 |
+| backendTimeout                                                | PHP Timeout                                                                         |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             | 7200                                                                                                                                                                                                                                                                                                                                                      | interval                  | System -> Backend                              |
+| backendLocales                                                | Auswählbare Sprachen                                                                |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             | Array                                                                                                                                                                                                                                                                                                                                                     | select                    | System -> Backend                              |
+| routerblogtemplate                                            | SEO-Urls Blog-Template                                                              |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             | {sCategoryPath categoryID=$blogArticle.categoryId}/{$blogArticle.title}                                                                                                                                                                                                                                                                                   | text                      | Storefront -> SEO/Router-Einstellungen         |
+| detailModal                                                   | Artikeldetails in Modalbox anzeigen                                                 |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             | 1                                                                                                                                                                                                                                                                                                                                                         | boolean                   | Storefront -> Bestellabschluss                 |
+| company                                                       | Firma                                                                               |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |                                                                                                                                                                                                                                                                                                                                                           | textfield                 | Shopeinstellungen -> Stammdaten                |
+| routercampaigntemplate                                        | SEO-Urls Landingpage-Template                                                       |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             | {$campaign.name}                                                                                                                                                                                                                                                                                                                                          | text                      | Storefront -> SEO/Router-Einstellungen         |
+| paymentSurchargeAbsoluteNumber                                | Pauschaler Aufschlag für Zahlungsart (Bestellnummer)                                |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             | sw-payment-absolute                                                                                                                                                                                                                                                                                                                                       | text                      | Storefront -> Rabatte / Zuschläge              |
+| MailCampaignsPerCall                                          | Anzahl der Mails, die pro Cronjob-Aufruf versendet werden                           |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             | 1000                                                                                                                                                                                                                                                                                                                                                      | number                    | Weitere Einstellungen -> Newsletter            |
+| own_filter                                                    | Eigener Filter                                                                      |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |                                                                                                                                                                                                                                                                                                                                                           | textarea                  | System -> InputFilter                          |
+| accountPasswordCheck                                          | Aktuelles Passwort bei Passwort-Änderungen abfragen                                 |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             | 1                                                                                                                                                                                                                                                                                                                                                         | boolean                   | Storefront -> Anmeldung / Registrierung        |
+| preferBasePath                                                | Shopware-Kernel aus URL entfernen                                                   | Entfernt "shopware.php" aus URLs. Verhindert, dass Suchmaschinen fälschlicherweise DuplicateContent im Shop erkennen. Wenn kein ModRewrite zur Verfügung steht, muss dieses Häcken entfernt werden.                                                                                                                                                                                                                                                                                                                                                                                                                         | 1                                                                                                                                                                                                                                                                                                                                                         | boolean                   | Storefront -> SEO/Router-Einstellungen         |
+| useShortDescriptionInListing                                  | In Listen-Ansichten immer die Artikel-Kurzbeschreibung anzeigen                     | Beeinflusst: Topseller, Kategorielisten, Einkaufswelten                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |                                                                                                                                                                                                                                                                                                                                                           | checkbox                  | Weitere Einstellungen -> Abwärtskompatibilität |
+| defaultPasswordEncoder                                        | Passwort-Algorithmus                                                                | Mit welchem Algorithmus sollen die Passwörter verschlüsselt werden?                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         | Auto                                                                                                                                                                                                                                                                                                                                                      | combo                     | System -> Passwörter                           |
+| liveMigration                                                 | Live Migration                                                                      | Sollen vorhandene Benutzer-Passwörter mit anderen Passwort-Algorithmen beim nächsten Einloggen erneut gehasht werden? Das geschieht voll automatisch im Hintergrund, so dass die Passwörter sukzessiv auf einen neuen Algorithmus umgestellt werden können.                                                                                                                                                                                                                                                                                                                                                                 | 1                                                                                                                                                                                                                                                                                                                                                         | checkbox                  | System -> Passwörter                           |
+| bcryptCost                                                    | Bcrypt-Rechenaufwand                                                                | Je höher der Rechenaufwand, desto aufwändiger ist es für einen möglichen Angreifer, ein Klartext-Passwort für das verschlüsselte Passwort zu berechnen.                                                                                                                                                                                                                                                                                                                                                                                                                                                                     | 10                                                                                                                                                                                                                                                                                                                                                        | number                    | System -> Passwörter                           |
+| sha256iterations                                              | Sha256-Iterationen                                                                  | Je höher der Rechenaufwand, desto aufwändiger ist es für einen möglichen Angreifer, ein Klartext-Passwort für das verschlüsselte Passwort zu berechnen.                                                                                                                                                                                                                                                                                                                                                                                                                                                                     | 100000                                                                                                                                                                                                                                                                                                                                                    | number                    | System -> Passwörter                           |
+| moveBatchModeEnabled                                          | Kategorien im Batch-Modus verschieben                                               |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |                                                                                                                                                                                                                                                                                                                                                           | checkbox                  | Storefront -> Kategorien / Listen              |
+| admin                                                         | Admin-View                                                                          | Cache bei Artikel-Vorschau und Schnellbestellung deaktivieren                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |                                                                                                                                                                                                                                                                                                                                                           | boolean                   | System -> Frontend cache (HTTP cache)          |
+| cacheControllers                                              | Cache-Controller / Zeiten                                                           |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             | frontend/listing 3600frontend/index 3600frontend/detail 3600frontend/campaign 14400widgets/listing 14400frontend/custom 14400frontend/sitemap 14400frontend/blog 14400widgets/index 3600widgets/checkout 3600widgets/compare 3600widgets/emotion 14400widgets/recommendation 14400widgets/lastArticles 3600widgets/campaign 3600frontend/listing/layout 0 | textarea                  | System -> Frontend cache (HTTP cache)          |
+| noCacheControllers                                            | NoCache-Controller / Tags                                                           |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             | widgets/lastArticles detailwidgets/checkout checkout,sltwidgets/compare compare                                                                                                                                                                                                                                                                           | textarea                  | System -> Frontend cache (HTTP cache)          |
+| proxy                                                         | Alternative Proxy-Url                                                               | Link zum Http-Proxy mit „http://“ am Anfang.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |                                                                                                                                                                                                                                                                                                                                                           | text                      | System -> Frontend cache (HTTP cache)          |
+| proxyPrune                                                    | Proxy-Prune aktivieren                                                              | Das automatische Leeren des Caches aktivieren.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              | 1                                                                                                                                                                                                                                                                                                                                                         | boolean                   | System -> Frontend cache (HTTP cache)          |
+| downloadAvailablePaymentStatus                                | Download freigeben bei Zahlstatus                                                   | Definiere hier den Zahlstatus bei dem ein Download des ESD-Artikels möglich ist.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            | Array                                                                                                                                                                                                                                                                                                                                                     | select                    | Artikel -> ESD                                 |
+| forceArticleMainImageInListing                                | Immer das Artikel-Vorschaubild anzeigen                                             | z.B. im Listing oder beim Auswahl- und Bildkonfigurator ohne ausgewählte Variante                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |                                                                                                                                                                                                                                                                                                                                                           | checkbox                  | Storefront -> Kategorien / Listen              |
+| sendOrderMail                                                 | Bestell-Abschluss-E-Mail versenden                                                  |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             | 1                                                                                                                                                                                                                                                                                                                                                         | checkbox                  | Storefront -> Bestellabschluss                 |
+| requirePhoneField                                             | Telefon als Pflichtfeld behandeln                                                   | Beachte, dass du die Sternchenangabe über den Textbaustein RegisterLabelPhone konfigurieren musst                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |                                                                                                                                                                                                                                                                                                                                                           | checkbox                  | Storefront -> Anmeldung / Registrierung        |
+| sepaCompany                                                   | Firmenname                                                                          |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |                                                                                                                                                                                                                                                                                                                                                           | text                      | Storefront -> SEPA-Konfiguration               |
+| sepaHeaderText                                                | Überschrift                                                                         |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |                                                                                                                                                                                                                                                                                                                                                           | text                      | Storefront -> SEPA-Konfiguration               |
+| sepaSellerId                                                  | Gläubiger-Identifikationsnummer                                                     |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |                                                                                                                                                                                                                                                                                                                                                           | text                      | Storefront -> SEPA-Konfiguration               |
+| sepaSendEmail                                                 | SEPA Mandat automatisch versenden                                                   |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             | 1                                                                                                                                                                                                                                                                                                                                                         | checkbox                  | Storefront -> SEPA-Konfiguration               |
+| sepaShowBic                                                   | SEPA BIC Feld anzeigen                                                              |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             | 1                                                                                                                                                                                                                                                                                                                                                         | checkbox                  | Storefront -> SEPA-Konfiguration               |
+| sepaRequireBic                                                | SEPA BIC Feld erforderlich                                                          |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             | 1                                                                                                                                                                                                                                                                                                                                                         | checkbox                  | Storefront -> SEPA-Konfiguration               |
+| sepaShowBankName                                              | SEPA Kreditinstitut Feld anzeigen                                                   |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             | 1                                                                                                                                                                                                                                                                                                                                                         | checkbox                  | Storefront -> SEPA-Konfiguration               |
+| sepaRequireBankName                                           | SEPA Kreditinstitut Feld erforderlich                                               |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             | 1                                                                                                                                                                                                                                                                                                                                                         | checkbox                  | Storefront -> SEPA-Konfiguration               |
+| seoSupplier                                                   | Hersteller SEO-Informationen anwenden                                               |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             | 1                                                                                                                                                                                                                                                                                                                                                         | checkbox                  | Storefront -> SEO/Router-Einstellungen         |
+| seoSupplierRouteTemplate                                      | SEO-Urls Hersteller-Template                                                        |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             | {createSupplierPath supplierID=$sSupplier.id}/                                                                                                                                                                                                                                                                                                            | text                      | Storefront -> SEO/Router-Einstellungen         |
+| logMail                                                       | Fehler an Shopbetreiber senden                                                      |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             | 0                                                                                                                                                                                                                                                                                                                                                         | checkbox                  | System -> Log                                  |
+| maximumReferrerAge                                            | Maximales Alter für Referrer Statistikdaten                                         | Alte Referrer Daten werden über den Aufräumen Cronjob gelöscht, falls aktiv                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 | 90                                                                                                                                                                                                                                                                                                                                                        | text                      | System -> Statistiken                          |
+| maximumImpressionAge                                          | Maximales Alter für Artikel-Impressions                                             | Alte Impression Daten werden über den Aufräumen Cronjob gelöscht, falls aktiv                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               | 90                                                                                                                                                                                                                                                                                                                                                        | text                      | System -> Statistiken                          |
+| showTellAFriend                                               | Artikel weiterempfehlen anzeigen                                                    |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |                                                                                                                                                                                                                                                                                                                                                           | boolean                   | Storefront -> Artikelempfehlungen              |
+| lastarticles_time                                             | Speicherfrist in Tagen                                                              |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             | 15                                                                                                                                                                                                                                                                                                                                                        | number                    | Storefront -> Artikelverlauf                   |
+| esdDownloadStrategy                                           | Downloadoption für ESD Dateien                                                      | <b>Achtung</b>: Diese Einstellung könnte die Funktionalität der ESD Downloads beeinträchtigen. Ändere hier nur die Einstellung falls du weißt, was du tust.<br><br>Downloadstrategie für ESD Dateien.<br><b>Link</b>: Unter umständen Unsicher, da der Link von Außen eingesehen werden kann.<br><b>PHP</b>: Der Link kann nicht eingesehen werden. PHP liefert die Datei aus. Dies kann zu Problemen bei größeren Dateien führen.<br><b>X-Sendfile</b>: Unterstütz größere Dateien und ist sicher. Benötigt das X-Sendfile Apache Module. <br><b>X-Accel</b>: Äquivalent zum X-Sendfile. Benötigt das Nginx Modul X-Accel. | 1                                                                                                                                                                                                                                                                                                                                                         | select                    | Artikel -> ESD                                 |
+| update-api-endpoint                                           | API Endpoint                                                                        |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             | http://update-api.shopware.com/v1/                                                                                                                                                                                                                                                                                                                        | text                      | System -> Shopware Auto Update                 |
+| update-channel                                                | Update Kanal                                                                        |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             | stable                                                                                                                                                                                                                                                                                                                                                    | select                    | System -> Shopware Auto Update                 |
+| update-code                                                   | Aktionscode                                                                         |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |                                                                                                                                                                                                                                                                                                                                                           | text                      | System -> Shopware Auto Update                 |
+| update-fake-version                                           | Fake Version                                                                        |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |                                                                                                                                                                                                                                                                                                                                                           | text                      | System -> Shopware Auto Update                 |
+| update-feedback-api-endpoint                                  | Feedback API Endpoint                                                               |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             | http://feedback.update-api.shopware.com/v1/                                                                                                                                                                                                                                                                                                               | text                      | System -> Shopware Auto Update                 |
+| update-send-feedback                                          | Feedback senden                                                                     |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             | 1                                                                                                                                                                                                                                                                                                                                                         | boolean                   | System -> Shopware Auto Update                 |
+| trackingUniqueId                                              | Unique identifier                                                                   |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |                                                                                                                                                                                                                                                                                                                                                           | text                      | System -> Shopware Auto Update                 |
+| update-verify-signature                                       | Verify Signature                                                                    |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             | 1                                                                                                                                                                                                                                                                                                                                                         | boolean                   | System -> Shopware Auto Update                 |
+| showphonenumberfield                                          | Telefon anzeigen                                                                    |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |                                                                                                                                                                                                                                                                                                                                                           | checkbox                  | Storefront -> Anmeldung / Registrierung        |
+| doublepasswordvalidation                                      | Passwort muss zweimal eingegeben werden                                             | Passwort muss zweimal angegeben werden, um Tippfehler zu vermeiden.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |                                                                                                                                                                                                                                                                                                                                                           | checkbox                  | Storefront -> Anmeldung / Registrierung        |
+| showbirthdayfield                                             | Geburtstag anzeigen                                                                 |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |                                                                                                                                                                                                                                                                                                                                                           | checkbox                  | Storefront -> Anmeldung / Registrierung        |
+| requirebirthdayfield                                          | Geburtstag als Pflichtfeld behandeln                                                |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |                                                                                                                                                                                                                                                                                                                                                           | checkbox                  | Storefront -> Anmeldung / Registrierung        |
+| showAdditionAddressLine1                                      | Adresszusatzzeile 1 anzeigen                                                        |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |                                                                                                                                                                                                                                                                                                                                                           | checkbox                  | Storefront -> Anmeldung / Registrierung        |
+| showAdditionAddressLine2                                      | Adresszusatzzeile 2 anzeigen                                                        |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |                                                                                                                                                                                                                                                                                                                                                           | checkbox                  | Storefront -> Anmeldung / Registrierung        |
+| requireAdditionAddressLine1                                   | Adresszusatzzeile 1 als Pflichtfeld behandeln                                       |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |                                                                                                                                                                                                                                                                                                                                                           | checkbox                  | Storefront -> Anmeldung / Registrierung        |
+| requireAdditionAddressLine2                                   | Adresszusatzzeile 2 als Pflichtfeld behandeln                                       |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |                                                                                                                                                                                                                                                                                                                                                           | checkbox                  | Storefront -> Anmeldung / Registrierung        |
+| addToQueuePerRequest                                          | Anzahl der Produkte pro Queue-Request                                               | Anzahl der Produkte, die je Request in den Queue geladen werden. Je größer die Zahl, desto länger dauern die Requests. Zu kleine Werte erhöhen den Overhead.                                                                                                                                                                                                                                                                                                                                                                                                                                                                | 2048                                                                                                                                                                                                                                                                                                                                                      | number                    | Weitere Einstellungen -> Mehrfachänderung      |
+| batchItemsPerRequest                                          | Anzahl der Produkte pro Batch-Request                                               | Anzahl der Produkte, die je Request verarbeitet werden. Je größer die Zahl, desto länger dauern die Requests. Zu kleine Werte erhöhen den Overhead.                                                                                                                                                                                                                                                                                                                                                                                                                                                                         | 2048                                                                                                                                                                                                                                                                                                                                                      | number                    | Weitere Einstellungen -> Mehrfachänderung      |
+| enableBackup                                                  | Rückgängig-Funktion aktivieren                                                      | Ermöglicht es, einzelne Mehrfach-Änderungen rückgängig zu machen. Diese Funktion ersetzt kein Backup.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       | 1                                                                                                                                                                                                                                                                                                                                                         | checkbox                  | Weitere Einstellungen -> Mehrfachänderung      |
+| clearCache                                                    | Automatische Cache-Invalidierung aktivieren                                         | Invalidiert den Cache für jedes Produkt, das geändert wird. Bei vielen Produkten kann sich das negativ auf die Dauer des Vorgangs auswirken. Es wird daher empfohlen, den Cache nach Ende des Vorgangs manuell zu leeren.                                                                                                                                                                                                                                                                                                                                                                                                   |                                                                                                                                                                                                                                                                                                                                                           | checkbox                  | Weitere Einstellungen -> Mehrfachänderung      |
+| basketShowCalculation                                         | Versandkostenberechnung im Warenkob anzeigen                                        | Bei aktivierter Einstellung wird ein Versandkostenrechner auf der Warenkorbseite dargestellt. Diese Funktion ist nur für nicht angemeldete Kunden verfügbar.                                                                                                                                                                                                                                                                                                                                                                                                                                                                | 1                                                                                                                                                                                                                                                                                                                                                         | boolean                   | Storefront -> Warenkorb / Artikeldetails       |
+| PageNotFoundDestination                                       | "Seite nicht gefunden" Ziel                                                         | Wenn der Besucher eine nicht existierende Seite aufruft, wird ihm diese angezeigt.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          | -2                                                                                                                                                                                                                                                                                                                                                        | select                    | Storefront -> SEO/Router-Einstellungen         |
+| PageNotFoundCode                                              | "Seite nicht gefunden" Fehlercode                                                   | Übertragener HTTP Statuscode bei "Seite nicht gefunden" meldungen                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           | 404                                                                                                                                                                                                                                                                                                                                                       | number                    | Storefront -> SEO/Router-Einstellungen         |
+| showCompanySelectField                                        | "Ich bin" Auswahlfeld anzeigen                                                      | Wenn das Auswahlfeld nicht angezeigt wird, wird die Registrierung immer als Privatkunde durchgeführt. Das Auswahlfeld wird nur bei der Registrierung ausgeblendent, danach ist es beim Ändern der Benutzerdaten trotzdem verfügbar.                                                                                                                                                                                                                                                                                                                                                                                         | 1                                                                                                                                                                                                                                                                                                                                                         | checkbox                  | Storefront -> Anmeldung / Registrierung        |
+| metaIsFamilyFriendly                                          | Shop ist familienfreundlich                                                         | Setzt den Metatag "isFamilyFriendly" für Suchmaschinen                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      | 1                                                                                                                                                                                                                                                                                                                                                         | checkbox                  | Shopeinstellungen -> Stammdaten                |
+| seoCustomSiteRouteTemplate                                    | SEO-Urls Shopseiten Template                                                        |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             | {$site.description}                                                                                                                                                                                                                                                                                                                                       | text                      | Storefront -> SEO/Router-Einstellungen         |
+| seoFormRouteTemplate                                          | SEO-Urls Formular Template                                                          |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             | {$form.name}                                                                                                                                                                                                                                                                                                                                              | text                      | Storefront -> SEO/Router-Einstellungen         |
+| defaultListingSorting                                         | Kategorie Standard Sortierung                                                       |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             | 1                                                                                                                                                                                                                                                                                                                                                         | custom-sorting-selection  | Storefront -> Kategorien / Listen              |
+| searchProductBoxLayout                                        | Produkt Layout                                                                      | Mit Hilfe des Produkt Layouts kannst du entscheiden, wie deine Produkte auf der Suchergebnis-Seite dargestellt werden sollen. Wähle eines der drei unterschiedlichen Layouts um die Ansicht perfekt auf dein Produktsortiment abzustimmen.                                                                                                                                                                                                                                                                                                                                                                                  | basic                                                                                                                                                                                                                                                                                                                                                     | product-box-layout-select | Storefront -> Suche                            |
+| hideNoInStock                                                 | Abverkaufsartikel ohne Lagerbestand ausblenden                                      |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |                                                                                                                                                                                                                                                                                                                                                           | checkbox                  | Storefront -> Warenkorb / Artikeldetails       |
+| emailheaderplain                                              | E-Mail Header Plaintext                                                             |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |                                                                                                                                                                                                                                                                                                                                                           | textarea                  | Storefront -> E-Mail-Einstellungen             |
+| emailfooterplain                                              | E-Mail Footer Plaintext                                                             |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             | Mit freundlichen GrüßenIhr Team von {config name=shopName}                                                                                                                                                                                                                                                                                                | textarea                  | Storefront -> E-Mail-Einstellungen             |
+| emailheaderhtml                                               | E-Mail Header HTML                                                                  |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             | <div><img src="{$sShopURL}/themes/Frontend/Responsive/frontend/_public/src/img/logos/logo--tablet.png" alt="Logo"><br />                                                                                                                                                                                                                                  | textarea                  | Storefront -> E-Mail-Einstellungen             |
+| emailfooterhtml                                               | E-Mail Footer HTML                                                                  |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             | <br/>Mit freundlichen Grüßen<br/><br/>Ihr Team von {config name=shopName}</div>                                                                                                                                                                                                                                                                           | textarea                  | Storefront -> E-Mail-Einstellungen             |
+| showEsd                                                       | Sofortdownloads im Account anzeigen                                                 | Sofortdownloads können weiterhin über die Bestellübersicht heruntergeladen werden.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          | 1                                                                                                                                                                                                                                                                                                                                                         | boolean                   | Artikel -> ESD                                 |
+| firstRunWizardEnabled                                         | 'First Run Wizard' beim Aufruf des Backends starten                                 |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             | 1                                                                                                                                                                                                                                                                                                                                                         | checkbox                  | System -> Backend                              |
+| showEsdWarning                                                | Checkbox zum Widerrufsrecht bei ESD Artikeln anzeigen                               |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             | 1                                                                                                                                                                                                                                                                                                                                                         | boolean                   | Storefront -> Bestellabschluss                 |
+| serviceAttrField                                              | Artikel-Freitextfeld für Dienstleistungsartikel                                     |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |                                                                                                                                                                                                                                                                                                                                                           | text                      | Storefront -> Bestellabschluss                 |
+| seoIndexPaginationLinks                                       | prev/next-Tag auf paginierten Seiten benutzen                                       | Wenn aktiv, wird auf paginierten Seiten anstatt des Canoncial-Tags der prev/next-Tag benutzt.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |                                                                                                                                                                                                                                                                                                                                                           | checkbox                  | Storefront -> SEO/Router-Einstellungen         |
+| thumbnailNoiseFilter                                          | Rauschfilterung bei Thumbnails                                                      | Filtert beim Generieren der Thumbnails Bildfehler heraus. Achtung! Bei aktivierter Option kann das Generieren der Thumbnails wesentlich länger dauern                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |                                                                                                                                                                                                                                                                                                                                                           | checkbox                  | Storefront -> Medien                           |
+| RelatedArticlesOnArticleNotFound                              | Zeige ähnliche Artikel auf der "Artikel nicht gefunden" Seite an                    | Wenn aktiviert, zeigt die "Artikel nicht gefunden" Seite die ähnlichen Artikel Vorschläge an. Deaktiviere diese Einstellung um die Standard "Seite nicht gefunden" Seite darzustellen.                                                                                                                                                                                                                                                                                                                                                                                                                                      | 1                                                                                                                                                                                                                                                                                                                                                         | boolean                   | Storefront -> SEO/Router-Einstellungen         |
+| showZipBeforeCity                                             | PLZ vor dem Stadtfeld anzeigen                                                      | Legt fest ob die PLZ vor oder nach der Stadt angezeigt werden soll. Nur für Shopware 5 Themes.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              | 1                                                                                                                                                                                                                                                                                                                                                         | checkbox                  | Storefront -> Anmeldung / Registrierung        |
+| mobileSitemap                                                 | Mobile Sitemap generieren                                                           | Wenn diese Option aktiviert ist, wird eine zusätzliche sitemap.xml mit der Struktur für mobile Endgeräte generiert.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         | 1                                                                                                                                                                                                                                                                                                                                                         | boolean                   | Storefront -> Sitemap                          |
+| calculateCheapestPriceWithMinPurchase                         | Mindestabnahme bei der Günstigsten-Preis-Berechnung berücksichtigen                 |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |                                                                                                                                                                                                                                                                                                                                                           | checkbox                  | Storefront -> Kategorien / Listen              |
+| useLastGraduationForCheapestPrice                             | Staffelpreise in der Günstigsten Preis Berechnung berücksichtigen                   |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |                                                                                                                                                                                                                                                                                                                                                           | checkbox                  | Storefront -> Kategorien / Listen              |
+| activateNumberSearch                                          | Nummern Suche aktivieren                                                            |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             | 1                                                                                                                                                                                                                                                                                                                                                         | checkbox                  | Storefront -> Suche                            |
+| enableAndSearchLogic                                          | "Und" Suchlogik verwenden                                                           | Die Suche zeigt nur Treffer an, in denen alle Suchbegriffe vorkommen.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |                                                                                                                                                                                                                                                                                                                                                           | checkbox                  | Storefront -> Suche                            |
+| always_select_payment                                         | Zahlungsart bei Bestellung immer auswählen                                          |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |                                                                                                                                                                                                                                                                                                                                                           | boolean                   | Storefront -> Bestellabschluss                 |
+| ajaxTimeout                                                   | Ajax Timeout                                                                        | Definiert die maximale Ausführungszeit für ExtJS Ajax Requests (in Sekunden)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                | 30                                                                                                                                                                                                                                                                                                                                                        | number                    | System -> Backend                              |
+| shopsalutations                                               | Verfügbare Anreden                                                                  | Ermöglicht die Konfiguration welche Anreden in diesem Shop zur Verfügung stehen. Die hier definierten Keys werden automatisch als Textbaustein unter dem Namespace frontend/salutation angelegt und können dort übersetzt werden.                                                                                                                                                                                                                                                                                                                                                                                           | mr,ms                                                                                                                                                                                                                                                                                                                                                     | text                      | Storefront -> Anmeldung / Registrierung        |
+| displayprofiletitle                                           | Titel Feld anzeigen                                                                 |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |                                                                                                                                                                                                                                                                                                                                                           | boolean                   | Storefront -> Anmeldung / Registrierung        |
+| sendRegisterConfirmation                                      | Bestätigungsmail nach Registrierung verschicken                                     |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             | 1                                                                                                                                                                                                                                                                                                                                                         | boolean                   | Storefront -> Anmeldung / Registrierung        |
+| maxStoreFrontLimit                                            | Maximale Anzahl Produkte pro Seite                                                  |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             | 100                                                                                                                                                                                                                                                                                                                                                       | number                    | Storefront -> Kategorien / Listen              |
+| strip_tags                                                    | Global strip_tags verwenden                                                         | Wenn aktiviert wird jeder Formularinput im Frontend mittels strip_tags gefiltert.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           | 1                                                                                                                                                                                                                                                                                                                                                         | checkbox                  | System -> InputFilter                          |
+| displayOnlySubShopVotes                                       | Nur Subshopspezifische Bewertungen anzeigen                                         | description                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |                                                                                                                                                                                                                                                                                                                                                           | checkbox                  | Storefront -> Artikelbewertungen               |
+| captchaMethod                                                 | Captcha Methode                                                                     | Wähle hier eine Methode aus, wie die Formulare gegen Spam-Bots geschützt werden sollen                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      | default                                                                                                                                                                                                                                                                                                                                                   | combo                     | Storefront -> Captcha                          |
+| noCaptchaAfterLogin                                           | Nach Login ausblenden                                                               | Nach dem Login können Kunden Formulare ohne Captcha-Überprüfung absenden.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |                                                                                                                                                                                                                                                                                                                                                           | checkbox                  | Storefront -> Captcha                          |
+| displayListingBuyButton                                       | Kaufenbutton im Listing anzeigen                                                    |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |                                                                                                                                                                                                                                                                                                                                                           | checkbox                  | Storefront -> Kategorien / Listen              |
+| show_cookie_note                                              | Cookie Hinweis anzeigen                                                             | Wenn diese Option aktiv ist, wird eine Hinweismeldung angezeigt die den Nutzer über die Cookie-Richtlinien informiert. Der Inhalt kann über das Textbausteinmodul editiert werden.                                                                                                                                                                                                                                                                                                                                                                                                                                          |                                                                                                                                                                                                                                                                                                                                                           | boolean                   | Storefront -> Cookie Hinweis                   |
+| data_privacy_statement_link                                   | Link zur Datenschutzerklärung                                                       |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |                                                                                                                                                                                                                                                                                                                                                           | text                      | Storefront -> Cookie Hinweis                   |
+| registerCaptcha                                               | Captcha in Registrierung verwenden                                                  | Wenn diese Option aktiv ist, wird ein Captcha zur Registrierung verwendent. Empfohlen für die Registrierung: Honeypot                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       | nocaptcha                                                                                                                                                                                                                                                                                                                                                 | combo                     | Storefront -> Anmeldung / Registrierung        |
+| searchSortings                                                | Verfügbare Sortierungen                                                             |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             | |7|1|2|3|4|5|                                                                                                                                                                                                                                                                                                                                             | custom-sorting-grid       | Storefront -> Suche                            |
+| searchFacets                                                  | Verfügbare filter                                                                   |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             | |1|2|3|4|5|6|7|                                                                                                                                                                                                                                                                                                                                           | custom-facet-grid         | Storefront -> Suche                            |
+| newsletterCaptcha                                             | Captcha in Newslettter  verwenden                                                   | Wenn diese Option aktiv ist, wird ein Captcha zur Newsletter verwendent. Empfohlen für die Newsletter: Honeypot                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             | nocaptcha                                                                                                                                                                                                                                                                                                                                                 | combo                     | Weitere Einstellungen -> Newsletter            |
+| useSltCookie                                                  | Shopware Login Cookie erstellen                                                     | Es wird ein Cookie gespeichert, an dem der Benutzer wieder identifiziert werden kann. Dieser wird nur für das Setzen der aktuellen Kundengruppe sowie aktiven Customer Streams verwendet                                                                                                                                                                                                                                                                                                                                                                                                                                    | 1                                                                                                                                                                                                                                                                                                                                                         | boolean                   | Storefront -> Anmeldung / Registrierung        |
+| backendMenuOnHover                                            | Backend Menüeinträge automatisch ausklappen                                         | Das Verhalten der Buttons in der oberen Menüleiste im Backend ändert sich mit dieser Option. Falls diese Option auf Nein gesetzt ist, müssen die Menüeinträge manuell durch einen Mausklick geöffnet werden. (Backend Cache leeren und Neuladen des Backends erforderlich)                                                                                                                                                                                                                                                                                                                                                  | 1                                                                                                                                                                                                                                                                                                                                                         | checkbox                  | System -> Backend                              |
+| growlMessageDisplayPosition                                   | Benachrichtigungs Position                                                          | Mit dieser Option können die Backend Benachrichtungen an einer anderen Stelle angezeigt werden (Backend Cache leeren und Neuladen des Backends erforderlich)                                                                                                                                                                                                                                                                                                                                                                                                                                                                | top-right                                                                                                                                                                                                                                                                                                                                                 | select                    | System -> Backend                              |
+| logMailAddress                                                | Alternative E-Mail-Adresse für Fehlermeldungen                                      | Wenn dieses Feld leer ist, wird die Shopbetreiber E-Mail-Adresse verwendet                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |                                                                                                                                                                                                                                                                                                                                                           | text                      | System -> Log                                  |
+| manufacturerProductBoxLayout                                  | Produktlayout im Herstellerlisting                                                  |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             | basic                                                                                                                                                                                                                                                                                                                                                     | product-box-layout-select | Storefront -> Kategorien / Listen              |
