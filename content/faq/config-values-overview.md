@@ -5,7 +5,7 @@ date: 2018-01-25T19:28:14+01:00
 ---
 
 
-<table>
+<table class="table table-responsive">
     <thead>
         <tr>
             <th>Label</th>
