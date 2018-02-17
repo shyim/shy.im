@@ -1,9 +1,0 @@
-pipeline:
-  build:
-    image: shyim/php-composer-hugo
-    secrets: [algolia_key,ssh_pass]
-    commands:
-      - composer install -o
-      - php index-algolia.php
-      - hugo
-      - cd public && sshpass -p $SSH_PASS scp -o StrictHostKeyChecking=no -o UserKnownHostsFile=/dev/null -r * shyimci@yoko.shyim.de:/var/www/shyim.me/web/

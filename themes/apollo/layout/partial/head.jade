@@ -1,0 +1,18 @@
+meta(charset="utf-8")
+meta(name="X-UA-Compatible", content="IE=edge")
+
+title 
+    block site_title
+        = config.title
+block description
+    meta(name="description", content= config.description ? config.description : 'A Blog Powered By Hexo')
+
+meta(name="viewport", content="width=device-width, initial-scale=1")
+link(rel="icon", href=url_for(theme.favicon))
+link(rel="stylesheet", href=url_for("css/apollo.css"))
+link(rel="stylesheet", href="https://cdn.jsdelivr.net/npm/instantsearch.js@2.2.4/dist/instantsearch.min.css")
+meta(name="google-site-verification", content="YLr4Temigx-nQyrxHffoZUl7-qkG_zR5pxAKzPQTy0Q")
+
+- var xml = config.url + '/atom.xml'
+    link(rel="search", type="application/opensearchdescription+xml", href=xml, title=config.title)
+    

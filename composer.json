@@ -1,6 +1,0 @@
-{
-    "require": {
-        "erusev/parsedown": "^1.6",
-        "algolia/algoliasearch-client-php": "^1.23"
-    }
-}

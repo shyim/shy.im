@@ -1,0 +1,12 @@
+menu:
+    Blog: /
+    Archive: /archives/
+    GitHub: https://github.com/shyim
+    Rss: /atom.xml
+    Supporters: /supporters/
+
+favicon: /favicon.ico
+logo: /avatar-icon.png
+
+# Copyright Infomation
+startyear: 2017
