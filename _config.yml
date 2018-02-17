@@ -104,6 +104,7 @@ algolia:
     - slug
     - tags
     - title
+    - content
 
 
 pwa:
