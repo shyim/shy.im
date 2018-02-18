@@ -112,6 +112,10 @@ pwa:
     body:
       name: Shopware FAQ
       short_name: Shopware FAQ
+      start_url: "."
+      display: "standalone"
+      background_color: "#fff"
+      description: "Shopware FAQ"
       icons:
         - src: /avatar-icon.png
           sizes: 192x192
