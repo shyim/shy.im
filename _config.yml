@@ -113,7 +113,7 @@ pwa:
       name: Shopware FAQ
       short_name: Shopware FAQ
       icons:
-        - src: /images/android-chrome-192x192.png
+        - src: /avatar-icon.png
           sizes: 192x192
           type: image/png
   serviceWorker:
