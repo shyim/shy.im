@@ -112,10 +112,11 @@ pwa:
     body:
       name: Shopware FAQ
       short_name: Shopware FAQ
-      start_url: "."
+      start_url: "/index.html"
       display: "standalone"
       background_color: "#fff"
       description: "Shopware FAQ"
+      orientation: "portrait"
       icons:
         - src: /avatar-icon.png
           sizes: 192x192
@@ -125,6 +126,8 @@ pwa:
     preload:
       urls:
         - /
+        - /archives/
+        - /supporters/
       posts: 5
     opts:
       networkTimeoutSeconds: 5
