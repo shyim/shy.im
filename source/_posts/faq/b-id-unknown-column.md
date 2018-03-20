@@ -1,5 +1,5 @@
 ---
-title: Column not found: 1054 Unknown column 'b.id' in 'where clause' Produktexport
+title: 'Column not found: 1054 Unknown column 'b.id' in 'where clause' Produktexport'
 tags: ["Bugs"]
 date: 2018-03-20T19:28:14+01:00
 ---
