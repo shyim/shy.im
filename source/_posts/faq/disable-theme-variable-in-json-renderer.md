@@ -8,4 +8,4 @@ Dazu muss das Template in der View resettet werden. Dazu einfach
 ```php
 $this->View()->setTemplate();
 ```
-im Controller / PostDispatch Event.
+im Controller Action oder im PreDispatch Event.
